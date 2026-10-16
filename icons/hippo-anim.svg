@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="HippoFit-Hippo">
+  <style>
+  .hf-fl, .hf-arm, .hf-bicep, .hf-eyes > g, .hf-spark { transform-box: fill-box; }
+  .hf-spark { opacity: 0; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hf-fl { transform-origin: 50% 100%; animation: hf-sway 3.2s ease-in-out infinite; }
+    .hf-fl2 { animation-delay: -1.1s; } .hf-fl3 { animation-delay: -2.2s; }
+    .hf-eyes > g { transform-origin: 50% 50%; animation: hf-blink 5s infinite; }
+    .hf-arm { transform-origin: 90% 70%; animation: hf-flex-soft 6s ease-in-out infinite; }
+    .hf-bicep { transform-origin: 50% 100%; animation: hf-pump-soft 6s ease-in-out infinite; }
+    .hf-spark { animation: hf-spark-soft 6s ease-in-out infinite; }
+  }
+  @keyframes hf-sway { 0%,100% { transform: rotate(-6deg) translateY(0); } 50% { transform: rotate(6deg) translateY(-2px); } }
+  @keyframes hf-blink { 0%,46%,50%,100% { transform: scaleY(1); } 48% { transform: scaleY(.1); } }
+  @keyframes hf-flex-soft { 0%,70%,100% { transform: rotate(0); } 78%,90% { transform: rotate(-5deg); } }
+  @keyframes hf-pump-soft { 0%,70%,100% { transform: scale(1); } 78%,90% { transform: scale(1.18); } }
+  @keyframes hf-spark-soft { 0%,74%,94%,100% { opacity: 0; } 80%,88% { opacity: 1; } }
+</style>
+  <g transform="translate(0.00 0.00) scale(1.0000)">
+  <!-- Blümchen -->
+  <g class="hf-flowers">
+  <g transform="translate(68 26)"><g class="hf-fl hf-fl1">
+    <path d="M0 6 Q-2 16 1 24" stroke="#6f9e7f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="5" cy="17" rx="4.5" ry="2.4" fill="#6f9e7f" transform="rotate(-30 5 17)"/>
+    <g fill="#f29bbd" stroke="#4b4266" stroke-width="1.6">
+      <circle cx="0" cy="-7" r="5.2"/><circle cx="6.7" cy="-2.2" r="5.2"/><circle cx="4.1" cy="5.7" r="5.2"/>
+      <circle cx="-4.1" cy="5.7" r="5.2"/><circle cx="-6.7" cy="-2.2" r="5.2"/>
+    </g>
+    <circle cx="0" cy="0" r="3.6" fill="#f5c84c" stroke="#4b4266" stroke-width="1.4"/>
+  </g></g>
+  <g transform="translate(100 15)"><g class="hf-fl hf-fl2">
+    <path d="M0 6 Q-2 16 1 24" stroke="#6f9e7f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="5" cy="17" rx="4.5" ry="2.4" fill="#6f9e7f" transform="rotate(-30 5 17)"/>
+    <g fill="#f5c84c" stroke="#4b4266" stroke-width="1.6">
+      <circle cx="0" cy="-7" r="5.2"/><circle cx="6.7" cy="-2.2" r="5.2"/><circle cx="4.1" cy="5.7" r="5.2"/>
+      <circle cx="-4.1" cy="5.7" r="5.2"/><circle cx="-6.7" cy="-2.2" r="5.2"/>
+    </g>
+    <circle cx="0" cy="0" r="3.6" fill="#e8735f" stroke="#4b4266" stroke-width="1.4"/>
+  </g></g>
+  <g transform="translate(132 26)"><g class="hf-fl hf-fl3">
+    <path d="M0 6 Q-2 16 1 24" stroke="#6f9e7f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="5" cy="17" rx="4.5" ry="2.4" fill="#6f9e7f" transform="rotate(-30 5 17)"/>
+    <g fill="#ffffff" stroke="#4b4266" stroke-width="1.6">
+      <circle cx="0" cy="-7" r="5.2"/><circle cx="6.7" cy="-2.2" r="5.2"/><circle cx="4.1" cy="5.7" r="5.2"/>
+      <circle cx="-4.1" cy="5.7" r="5.2"/><circle cx="-6.7" cy="-2.2" r="5.2"/>
+    </g>
+    <circle cx="0" cy="0" r="3.6" fill="#f5c84c" stroke="#4b4266" stroke-width="1.4"/>
+  </g></g>
+  </g>
+  <!-- Beine -->
+  <g fill="#6f6497" stroke="#4b4266" stroke-width="2.6">
+    <rect x="66" y="172" width="26" height="22" rx="10"/><rect x="108" y="172" width="26" height="22" rx="10"/>
+  </g>
+  <g fill="#4b4266" opacity=".5"><circle cx="72" cy="190" r="1.8"/><circle cx="79" cy="191" r="1.8"/><circle cx="86" cy="190" r="1.8"/>
+    <circle cx="114" cy="190" r="1.8"/><circle cx="121" cy="191" r="1.8"/><circle cx="128" cy="190" r="1.8"/></g>
+  <!-- Körper und Bauch -->
+  <ellipse cx="100" cy="148" rx="44" ry="36" fill="#8e82b3" stroke="#4b4266" stroke-width="2.6"/>
+  <ellipse cx="100" cy="156" rx="27" ry="23" fill="#b3a9d1"/>
+  
+  <g><g class="hf-arm hf-arm-l">
+    <!-- Oberarm vom Schulteransatz zum Ellbogen -->
+    <path d="M68 124 C54 117 34 118 21 123 C13 127 13 138 21 141 C36 145 56 143 70 140 Z"
+          fill="#8e82b3" stroke="#4b4266" stroke-width="2.6" stroke-linejoin="round"/>
+    <!-- Unterarm nach oben -->
+    <path d="M13 134 C9 120 9 104 13 94 L28 94 C30 106 30 120 27 134 Z"
+          fill="#8e82b3" stroke="#4b4266" stroke-width="2.6" stroke-linejoin="round"/>
+    <!-- Bizeps (vor dem Unterarm, damit er gut sichtbar ist) -->
+    <g class="hf-bicep"><path d="M24 125 C22 100 52 92 60 119 C50 123 36 125 24 125 Z"
+          fill="#8e82b3" stroke="#4b4266" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M32 108 C36 103 43 102 48 105" stroke="#ffffff" stroke-opacity=".6" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>
+    <!-- Schweissband und Faust -->
+    <rect x="10.5" y="96" width="19" height="7" rx="3" fill="#e8735f" stroke="#4b4266" stroke-width="2"/>
+    <circle cx="20" cy="86" r="11.5" fill="#8e82b3" stroke="#4b4266" stroke-width="2.6"/>
+    <path d="M14 84 h12 M14 89 h11" stroke="#4b4266" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Kraft-Funken -->
+    <g class="hf-spark" stroke="#f5c84c" stroke-width="3" stroke-linecap="round">
+      <path d="M38 92 l3 -7"/><path d="M50 97 l7 -4"/><path d="M58 106 l7 -1"/>
+    </g>
+  </g></g>
+  <g transform="matrix(-1 0 0 1 200 0)"><g class="hf-arm hf-arm-r">
+    <!-- Oberarm vom Schulteransatz zum Ellbogen -->
+    <path d="M68 124 C54 117 34 118 21 123 C13 127 13 138 21 141 C36 145 56 143 70 140 Z"
+          fill="#8e82b3" stroke="#4b4266" stroke-width="2.6" stroke-linejoin="round"/>
+    <!-- Unterarm nach oben -->
+    <path d="M13 134 C9 120 9 104 13 94 L28 94 C30 106 30 120 27 134 Z"
+          fill="#8e82b3" stroke="#4b4266" stroke-width="2.6" stroke-linejoin="round"/>
+    <!-- Bizeps (vor dem Unterarm, damit er gut sichtbar ist) -->
+    <g class="hf-bicep"><path d="M24 125 C22 100 52 92 60 119 C50 123 36 125 24 125 Z"
+          fill="#8e82b3" stroke="#4b4266" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M32 108 C36 103 43 102 48 105" stroke="#ffffff" stroke-opacity=".6" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>
+    <!-- Schweissband und Faust -->
+    <rect x="10.5" y="96" width="19" height="7" rx="3" fill="#e8735f" stroke="#4b4266" stroke-width="2"/>
+    <circle cx="20" cy="86" r="11.5" fill="#8e82b3" stroke="#4b4266" stroke-width="2.6"/>
+    <path d="M14 84 h12 M14 89 h11" stroke="#4b4266" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Kraft-Funken -->
+    <g class="hf-spark" stroke="#f5c84c" stroke-width="3" stroke-linecap="round">
+      <path d="M38 92 l3 -7"/><path d="M50 97 l7 -4"/><path d="M58 106 l7 -1"/>
+    </g>
+  </g></g>
+  <!-- Ohren -->
+  <g stroke="#4b4266" stroke-width="2.6">
+    <ellipse cx="69" cy="62" rx="9" ry="11" fill="#8e82b3" transform="rotate(-20 69 62)"/>
+    <ellipse cx="131" cy="62" rx="9" ry="11" fill="#8e82b3" transform="rotate(20 131 62)"/>
+  </g>
+  <ellipse cx="69" cy="63" rx="4" ry="6" fill="#f29bbd" transform="rotate(-20 69 63)"/>
+  <ellipse cx="131" cy="63" rx="4" ry="6" fill="#f29bbd" transform="rotate(20 131 63)"/>
+  <!-- Kopf -->
+  <ellipse cx="100" cy="88" rx="37" ry="31" fill="#8e82b3" stroke="#4b4266" stroke-width="2.6"/>
+  <!-- Stirnband -->
+  <path d="M65 78 C78 66 122 66 135 78 L134 87 C121 76 79 76 66 87 Z" fill="#e8735f" stroke="#4b4266" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M70 80 C84 71 116 71 130 80" stroke="#ffffff" stroke-opacity=".7" stroke-width="2" fill="none"/>
+  <!-- Augen -->
+  <g class="hf-eyes">
+    <g><circle cx="86" cy="96" r="8.5" fill="#ffffff" stroke="#4b4266" stroke-width="2.2"/><circle cx="88" cy="97" r="4.6" fill="#4b4266"/><circle cx="89.6" cy="95" r="1.6" fill="#ffffff"/></g>
+    <g><circle cx="114" cy="96" r="8.5" fill="#ffffff" stroke="#4b4266" stroke-width="2.2"/><circle cx="112" cy="97" r="4.6" fill="#4b4266"/><circle cx="113.6" cy="95" r="1.6" fill="#ffffff"/></g>
+  </g>
+  <!-- selbstbewusste Augenbrauen -->
+  <path d="M77 86 L93 88 M123 86 L107 88" stroke="#4b4266" stroke-width="3" stroke-linecap="round"/>
+  <!-- Schnauze -->
+  <ellipse cx="100" cy="122" rx="40" ry="23" fill="#b7acd8" stroke="#4b4266" stroke-width="2.6"/>
+  <ellipse cx="87" cy="114" rx="4.6" ry="3.4" fill="#4b4266"/><ellipse cx="113" cy="114" rx="4.6" ry="3.4" fill="#4b4266"/>
+  <!-- Lächeln mit Zähnchen -->
+  <path d="M80 126 C90 138 110 138 120 126" stroke="#4b4266" stroke-width="2.6" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M93 133.5 v-4.6 M107 133.5 v-4.6" stroke="#4b4266" stroke-width="1.6" stroke-linecap="round"/>
+  <ellipse cx="74" cy="122" rx="5" ry="3" fill="#f29bbd" opacity=".7"/><ellipse cx="126" cy="122" rx="5" ry="3" fill="#f29bbd" opacity=".7"/>
+  </g>
+</svg>

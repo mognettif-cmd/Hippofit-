@@ -1,0 +1,474 @@
+{
+  "equipment": {
+    "kb": "Kettlebell",
+    "db": "Kurzhantel",
+    "bar": "Klimmzugstange",
+    "rings": "Turnringe",
+    "trx": "TRX",
+    "step-small": "Kleiner Step",
+    "step-big": "Grosser Step",
+    "ball": "Gymnastikball",
+    "bw": "Körpergewicht"
+  },
+  "kbWeights": [4, 6, 8, 12, 16, 20, 24, 32],
+  "dbRange": { "min": 0, "max": 40, "step": 2 },
+  "families": {
+    "warmup": "Aufwärmen",
+    "squat": "Kniebeuge",
+    "split": "Ausfallschritt / Split Squat",
+    "step": "Step-up / Step-down",
+    "hinge": "Hüftbeuge (beidbeinig)",
+    "sl-hinge": "Hüftbeuge (einbeinig)",
+    "bridge": "Brücke / Hüftstreckung",
+    "hamstring": "Hintere Oberschenkel",
+    "calf": "Wade",
+    "push-h": "Drücken horizontal",
+    "push-v": "Drücken vertikal",
+    "pull-v": "Ziehen vertikal",
+    "pull-h": "Ziehen horizontal",
+    "carry": "Tragen",
+    "anti-ext": "Rumpf: Anti-Streckung",
+    "anti-rot": "Rumpf: Anti-Rotation",
+    "anti-lat": "Rumpf: Anti-Seitneigung",
+    "back": "Rückenstrecker",
+    "pf": "Beckenboden",
+    "power": "Power / Schnellkraft",
+    "plyo-low": "Plyometrie Stufe 1 (beidbeinig, tief)",
+    "plyo-mid": "Plyometrie Stufe 2 (beidbeinig, seitlich, weit)",
+    "plyo-high": "Plyometrie Stufe 3 (einbeinig, reaktiv)"
+  },
+  "exercises": [
+    {
+      "id": "wu-march", "name": "Marschieren / lockeres Joggen an Ort", "family": "warmup", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "time",
+      "cues": ["Puls langsam hochbringen", "Arme mitschwingen"]
+    },
+    {
+      "id": "wu-lunge-rotation", "name": "Ausfallschritt mit Rumpfrotation", "family": "warmup", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "reps",
+      "cues": ["Grosser Schritt nach vorne", "Oberkörper zum vorderen Bein drehen", "Hinteres Knie Richtung Boden"]
+    },
+    {
+      "id": "wu-hip-hinge", "name": "Hüftbeuge mit Händen an der Hüfte", "family": "warmup", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Gesäss nach hinten schieben", "Rücken lang", "Knie leicht gebeugt"]
+    },
+    {
+      "id": "wu-glute-bridge", "name": "Brücke (Aktivierung)", "family": "warmup", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Fersen in den Boden drücken", "Oben 2 Sekunden halten", "Ausatmen beim Hochkommen"]
+    },
+    {
+      "id": "wu-calf-ankle", "name": "Wadenheben und Fussgelenk-Kreisen", "family": "warmup", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Langsam hoch, langsam runter", "Fussgelenke in beide Richtungen kreisen"]
+    },
+    {
+      "id": "wu-world-stretch", "name": "Ausfallschritt mit Ellbogen zum Fuss", "family": "warmup", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "reps",
+      "cues": ["Ellbogen innen Richtung Fussgelenk", "Danach Arm zur Decke aufdrehen"]
+    },
+
+    {
+      "id": "box-squat", "name": "Kniebeuge zum grossen Step", "family": "squat", "equipment": ["step-big", "kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "goblet-squat",
+      "cues": ["Kurz auf den Step absitzen, nicht ablegen", "Knie zeigen Richtung Fussspitzen", "Ausatmen beim Aufstehen"]
+    },
+    {
+      "id": "goblet-squat", "name": "Goblet Squat", "family": "squat", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "box-squat", "harder": "db-front-squat",
+      "cues": ["Kettlebell eng vor der Brust", "So tief, wie der Rücken lang bleibt", "Ganzer Fuss am Boden"]
+    },
+    {
+      "id": "db-front-squat", "name": "Kniebeuge mit zwei Kurzhanteln (Front)", "family": "squat", "equipment": ["db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "goblet-squat",
+      "cues": ["Hanteln auf den Schultern, Ellbogen vorne", "Volle Bewegungsamplitude", "Kontrolliert ab, kräftig hoch"]
+    },
+
+    {
+      "id": "split-squat", "name": "Split Squat", "family": "split", "equipment": ["db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "harder": "bulgarian-split-squat",
+      "cues": ["Schrittstellung, Gewicht auf dem vorderen Bein", "Hinteres Knie fast bis zum Boden", "Becken gerade halten"]
+    },
+    {
+      "id": "reverse-lunge", "name": "Ausfallschritt rückwärts", "family": "split", "equipment": ["db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "split-squat", "harder": "bulgarian-split-squat",
+      "cues": ["Grosser Schritt nach hinten", "Vorderes Knie stabil über dem Fuss", "Mit dem vorderen Bein zurückdrücken"]
+    },
+    {
+      "id": "bulgarian-split-squat", "name": "Bulgarian Split Squat (hinterer Fuss auf Step)", "family": "split", "equipment": ["db", "step-big"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "split-squat",
+      "cues": ["Hinterer Fussrücken auf dem grossen Step", "Senkrecht nach unten sinken", "3 Sekunden ablassen für Bergab-Kraft"]
+    },
+    {
+      "id": "walking-lunge", "name": "Ausfallschritte gehend mit Hanteln", "family": "split", "equipment": ["db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "reverse-lunge",
+      "cues": ["Ruhiger Rhythmus", "Oberkörper aufrecht", "Wie bergauf gehen, nur tiefer"]
+    },
+    {
+      "id": "lateral-lunge", "name": "Seitlicher Ausfallschritt", "family": "split", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 0, "unit": "reps",
+      "cues": ["Breiter Schritt zur Seite", "Gesäss nach hinten, anderes Bein gestreckt", "Gut für Trittsicherheit im Gelände"]
+    },
+
+    {
+      "id": "step-up", "name": "Step-up (grosser Step)", "family": "step", "equipment": ["step-big", "db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "harder": "lateral-step-up",
+      "cues": ["Ganzer Fuss auf den Step", "Nur mit dem oberen Bein hochdrücken", "Langsam wieder absteigen"]
+    },
+    {
+      "id": "lateral-step-up", "name": "Step-up seitlich", "family": "step", "equipment": ["step-big", "db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "step-up",
+      "cues": ["Seitlich neben dem Step", "Knie zeigt über die Fussmitte", "Hüfte bleibt waagrecht"]
+    },
+    {
+      "id": "eccentric-step-down", "name": "Step-down exzentrisch (Fersen-Tipp)", "family": "step", "equipment": ["step-small", "db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "harder": "eccentric-step-down-big",
+      "cues": ["Auf dem Step stehen, anderes Bein schwebt vorne", "In 3–4 Sekunden absenken, bis die Ferse den Boden antippt", "Knie bleibt über dem Fuss – das ist Bergab-Training"],
+      "refs": [17, 19]
+    },
+    {
+      "id": "eccentric-step-down-big", "name": "Step-down exzentrisch vom grossen Step", "family": "step", "equipment": ["step-big", "db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "eccentric-step-down",
+      "cues": ["Wie Fersen-Tipp, aber höher", "4 Sekunden absenken", "Kontrolle vor Gewicht"],
+      "refs": [17, 19]
+    },
+
+    {
+      "id": "kb-deadlift", "name": "Kreuzheben mit Kettlebell", "family": "hinge", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "db-rdl",
+      "cues": ["Kettlebell zwischen den Füssen", "Hüfte nach hinten, Rücken lang", "Vor dem Hochziehen Beckenboden und Bauch kurz vorspannen"]
+    },
+    {
+      "id": "db-rdl", "name": "Rumänisches Kreuzheben mit Kurzhanteln", "family": "hinge", "equipment": ["db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "kb-deadlift",
+      "cues": ["Hanteln nah an den Beinen", "Knie leicht gebeugt, Hüfte weit nach hinten", "Dehnung hinten im Oberschenkel spüren"]
+    },
+    {
+      "id": "suitcase-deadlift", "name": "Kreuzheben einseitig (Suitcase Deadlift)", "family": "hinge", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 0, "unit": "reps",
+      "cues": ["Kettlebell seitlich neben dem Fuss", "Schultern bleiben waagrecht", "Wie Einkaufstasche oder Kindersitz aufheben"]
+    },
+
+    {
+      "id": "kickstand-rdl", "name": "Kickstand-RDL (Halb-Einbein)", "family": "sl-hinge", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 0, "unit": "reps", "harder": "sl-rdl",
+      "cues": ["Hinterer Fuss nur auf den Zehen als Stütze", "Gewicht fast ganz auf dem vorderen Bein", "Becken bleibt gerade"]
+    },
+    {
+      "id": "sl-rdl", "name": "Einbeiniges Rumänisches Kreuzheben", "family": "sl-hinge", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "kickstand-rdl",
+      "cues": ["Kettlebell in der Gegenhand", "Bein und Oberkörper bilden eine Linie", "Langsam – Gleichgewicht ist Teil der Übung"]
+    },
+
+    {
+      "id": "glute-bridge", "name": "Brücke mit Gewicht", "family": "bridge", "equipment": ["db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "hip-thrust",
+      "cues": ["Hantel auf dem Becken", "Fersen drücken", "Oben 1 Sekunde halten"]
+    },
+    {
+      "id": "hip-thrust", "name": "Hip Thrust (Schultern auf Step)", "family": "bridge", "equipment": ["step-big", "db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "glute-bridge", "harder": "sl-hip-thrust",
+      "cues": ["Schulterblätter auf dem grossen Step", "Kinn leicht zur Brust", "Oben Gesäss fest, Rippen unten"]
+    },
+    {
+      "id": "sl-hip-thrust", "name": "Einbeiniger Hip Thrust / einbeinige Brücke", "family": "bridge", "equipment": ["step-big"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "hip-thrust",
+      "cues": ["Ein Bein angezogen", "Becken bleibt waagrecht", "Auch Teil des Eintrittstests"],
+      "refs": [34]
+    },
+
+    {
+      "id": "ball-leg-curl", "name": "Beinbeuger am Gymnastikball", "family": "hamstring", "equipment": ["ball"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "ball-leg-curl-sl",
+      "cues": ["Fersen auf dem Ball, Becken hoch", "Ball zum Gesäss rollen", "Langsam zurückrollen"]
+    },
+    {
+      "id": "ball-leg-curl-sl", "name": "Beinbeuger am Ball einbeinig", "family": "hamstring", "equipment": ["ball"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "ball-leg-curl",
+      "cues": ["Nur ein Bein auf dem Ball", "Becken bleibt oben", "Kontrolle vor Tempo"]
+    },
+
+    {
+      "id": "calf-raise", "name": "Wadenheben beidbeinig an der Stufe", "family": "calf", "equipment": ["step-small", "db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "sl-calf-raise",
+      "cues": ["Fersen tief unter Stufenhöhe", "Ganz hoch auf die Grosszehe", "2 Sekunden hoch, 2 Sekunden runter"],
+      "refs": [11]
+    },
+    {
+      "id": "sl-calf-raise", "name": "Wadenheben einbeinig (Knie gestreckt)", "family": "calf", "equipment": ["step-small", "db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "calf-raise",
+      "cues": ["Hand an der Wand für Gleichgewicht", "Volle Bewegung", "Schwer und langsam – Sehnen lieben Last"],
+      "refs": [11]
+    },
+    {
+      "id": "bent-knee-calf-raise", "name": "Wadenheben einbeinig (Knie gebeugt)", "family": "calf", "equipment": ["step-small", "db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps",
+      "cues": ["Knie ca. 30–45° gebeugt halten", "Trainiert den Soleus – wichtig fürs Bergauf", "Hantel auf dem Oberschenkel"],
+      "refs": [11]
+    },
+
+    {
+      "id": "incline-push-up", "name": "Liegestütz erhöht (Hände auf Step)", "family": "push-h", "equipment": ["step-big"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "push-up",
+      "cues": ["Körper wie ein Brett", "Ellbogen ca. 45° zum Körper", "Brust bis zum Step"]
+    },
+    {
+      "id": "push-up", "name": "Liegestütz", "family": "push-h", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "incline-push-up", "harder": "ring-push-up",
+      "cues": ["Bauch und Gesäss fest", "Ganz runter, ganz hoch"]
+    },
+    {
+      "id": "ring-push-up", "name": "Liegestütz an den Ringen", "family": "push-h", "equipment": ["rings"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "push-up",
+      "cues": ["Ringe knapp über dem Boden", "Ringe ruhig halten", "Oben Arme ganz strecken"]
+    },
+    {
+      "id": "db-floor-press", "name": "Bodendrücken mit Kurzhanteln", "family": "push-h", "equipment": ["db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["In Rückenlage, Knie angestellt", "Oberarme tippen den Boden", "Kräftig hochdrücken"]
+    },
+
+    {
+      "id": "hk-db-press", "name": "Schulterdrücken im Halbkniestand", "family": "push-v", "equipment": ["db"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps", "harder": "db-overhead-press",
+      "cues": ["Ein Knie am Boden, Gesäss fest", "Hantel gerade nach oben", "Rippen unten, kein Hohlkreuz"]
+    },
+    {
+      "id": "db-overhead-press", "name": "Schulterdrücken stehend", "family": "push-v", "equipment": ["db"], "load": "db",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "hk-db-press",
+      "cues": ["Hüftbreiter Stand", "Bauch fest, ausatmen beim Drücken", "Wie Koffer ins Gepäckfach heben"]
+    },
+
+    {
+      "id": "foot-assisted-pull-up", "name": "Klimmzug mit Fussunterstützung", "family": "pull-v", "equipment": ["bar", "step-big"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "negative-pull-up",
+      "cues": ["Füsse auf dem Step helfen so wenig wie nötig", "Brust zur Stange", "Schulterblätter nach unten"]
+    },
+    {
+      "id": "negative-pull-up", "name": "Negativ-Klimmzug", "family": "pull-v", "equipment": ["bar", "step-big"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "foot-assisted-pull-up", "harder": "pull-up",
+      "cues": ["Mit Step in die obere Position", "In 3–5 Sekunden ablassen", "Ganz strecken, dann wieder hoch steigen"]
+    },
+    {
+      "id": "pull-up", "name": "Klimmzug", "family": "pull-v", "equipment": ["bar"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "negative-pull-up",
+      "cues": ["Aus dem ruhigen Hang starten", "Kinn über die Stange", "Kontrolliert ablassen"]
+    },
+
+    {
+      "id": "trx-row", "name": "Rudern am TRX", "family": "pull-h", "equipment": ["trx"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "ring-row",
+      "cues": ["Je steiler, desto leichter", "Körper gestreckt", "Ellbogen nach hinten, Brust zu den Griffen"]
+    },
+    {
+      "id": "ring-row", "name": "Rudern an den Ringen (flach)", "family": "pull-h", "equipment": ["rings"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "trx-row",
+      "cues": ["Füsse auf Step für mehr Schwierigkeit", "Ringe neben die Rippen ziehen", "Kurz halten"]
+    },
+    {
+      "id": "db-row", "name": "Einarmiges Rudern mit Kurzhantel", "family": "pull-h", "equipment": ["db", "step-big"], "load": "db",
+      "unilateral": true, "impact": 0, "unit": "reps",
+      "cues": ["Hand und Knie auf dem Step", "Hantel zur Hüfte ziehen", "Rumpf nicht verdrehen"]
+    },
+
+    {
+      "id": "farmer-carry", "name": "Farmer Carry (beidseitig)", "family": "carry", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "time",
+      "cues": ["Schwere Kettlebells in beiden Händen", "Gross gehen, Schultern weg von den Ohren", "Wie volle Einkaufstaschen"],
+      "refs": [23]
+    },
+    {
+      "id": "suitcase-carry", "name": "Suitcase Carry (einseitig)", "family": "carry", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 0, "unit": "time",
+      "cues": ["Nur eine Kettlebell", "Nicht zur Seite kippen – Rumpf hält dagegen", "Seite wechseln, beide Seiten gleich lang"],
+      "refs": [23]
+    },
+    {
+      "id": "front-rack-carry", "name": "Front-Rack-Carry", "family": "carry", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "time",
+      "cues": ["Kettlebell(s) vor der Schulter", "Rippen unten, ruhig atmen", "Einseitig ist schwieriger"],
+      "refs": [23]
+    },
+    {
+      "id": "hug-carry", "name": "Hug Carry (Last vor dem Bauch)", "family": "carry", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "time",
+      "cues": ["Kettlebell am Horn umarmt vor dem Bauch", "Nicht nach hinten lehnen", "Wie ein Kind auf dem Arm"],
+      "refs": [23]
+    },
+    {
+      "id": "offset-carry", "name": "Offset Carry (eine oben, eine unten)", "family": "carry", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "time",
+      "cues": ["Eine Kettlebell vor der Schulter, eine seitlich", "Gerade gehen", "Nach halber Zeit wechseln"],
+      "refs": [23]
+    },
+    {
+      "id": "suitcase-hold", "name": "Suitcase Hold (stehend)", "family": "anti-lat", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 0, "unit": "time", "harder": "suitcase-carry",
+      "cues": ["Einseitig halten, stillstehen", "Schultern waagrecht", "Gut für kleine Räume"]
+    },
+
+    {
+      "id": "dead-bug", "name": "Dead Bug", "family": "anti-ext", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "front-plank",
+      "cues": ["Rücken liegt ruhig auf", "Gegengleich Arm und Bein strecken", "Ausatmen beim Strecken"]
+    },
+    {
+      "id": "front-plank", "name": "Unterarmstütz", "family": "anti-ext", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "time", "easier": "dead-bug", "harder": "ball-rollout",
+      "cues": ["Körper gerade wie ein Brett", "Ruhig weiteratmen", "Kein Druck nach unten – sonst abbrechen"]
+    },
+    {
+      "id": "ball-rollout", "name": "Rollout am Gymnastikball", "family": "anti-ext", "equipment": ["ball"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps", "easier": "front-plank",
+      "cues": ["Kniend, Unterarme auf dem Ball", "Ball nach vorne rollen, Rücken bleibt gerade", "Nur so weit, wie kein Hohlkreuz entsteht"]
+    },
+
+    {
+      "id": "bird-dog", "name": "Bird Dog (Vierfüssler)", "family": "anti-rot", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "reps", "harder": "trx-pallof",
+      "cues": ["Gegengleich Arm und Bein lang machen", "Becken bleibt ruhig", "2 Sekunden halten"]
+    },
+    {
+      "id": "trx-pallof", "name": "Anti-Rotations-Drücken am TRX", "family": "anti-rot", "equipment": ["trx"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "reps", "easier": "bird-dog",
+      "cues": ["Seitlich zum Ankerpunkt, Griffe vor der Brust", "Arme nach vorne strecken – der Zug will dich drehen", "Nicht nachgeben, ruhig atmen"]
+    },
+
+    {
+      "id": "side-plank-knee", "name": "Seitstütz auf den Knien", "family": "anti-lat", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "time", "harder": "side-plank",
+      "cues": ["Ellbogen unter der Schulter", "Hüfte hoch", "Kopf, Becken und Knie in einer Linie"]
+    },
+    {
+      "id": "side-plank", "name": "Seitstütz", "family": "anti-lat", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 0, "unit": "time", "easier": "side-plank-knee",
+      "cues": ["Füsse übereinander oder versetzt", "Hüfte nicht absinken lassen", "Auch Teil der Testbatterie"]
+    },
+
+    {
+      "id": "ball-back-extension", "name": "Rückenstrecken am Gymnastikball", "family": "back", "equipment": ["ball"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Bauch auf dem Ball, Füsse an der Wand", "Oberkörper bis zur Linie anheben, nicht weiter", "Langsam"]
+    },
+
+    {
+      "id": "pf-strength", "name": "Beckenboden: Kraft (maximale Kontraktionen)", "family": "pf", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Beckenboden nach innen-oben anspannen, so fest wie möglich", "3–5 Sekunden halten, normal weiteratmen", "Ganz loslassen, 5 Sekunden Pause"],
+      "refs": [24, 25, 27]
+    },
+    {
+      "id": "pf-quick", "name": "Beckenboden: schnelle Kontraktionen", "family": "pf", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Kurz und kräftig anspannen, sofort loslassen", "Wie bei einem Husten oder Sprung", "Jede Wiederholung ganz lösen"],
+      "refs": [24, 25]
+    },
+    {
+      "id": "pf-knack", "name": "Beckenboden: Knack (Vorspannen)", "family": "pf", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Beckenboden anspannen, kurz bevor du hustest, niest oder etwas hebst", "Übe es mit Husten und beim Aufheben einer Kettlebell", "Wird mit der Zeit automatisch"],
+      "refs": [24, 29]
+    },
+    {
+      "id": "pf-lift-breath", "name": "Beckenboden: Ausatmen beim Heben", "family": "pf", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "reps",
+      "cues": ["Leichte Kettlebell aufheben", "Beim Hochkommen ausatmen und Beckenboden mitnehmen", "Kein Druck nach unten, kein Schweregefühl"],
+      "refs": [29]
+    },
+
+    {
+      "id": "kb-deadlift-speed", "name": "Kreuzheben explosiv (Kettlebell)", "family": "power", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 0, "unit": "reps", "harder": "kb-swing",
+      "cues": ["Langsam ablassen, so schnell wie möglich aufrichten", "Gute Vorstufe zum Swing"],
+      "refs": [1]
+    },
+    {
+      "id": "kb-swing", "name": "Kettlebell Swing (beidhändig)", "family": "power", "equipment": ["kb"], "load": "kb",
+      "unilateral": false, "impact": 1, "unit": "reps", "easier": "kb-deadlift-speed", "harder": "kb-swing-1h",
+      "cues": ["Bewegung kommt aus der Hüfte, nicht aus den Armen", "Oben Gesäss fest, kurz ausatmen", "Kettlebell schwebt bis Brusthöhe"],
+      "refs": [1]
+    },
+    {
+      "id": "kb-swing-1h", "name": "Kettlebell Swing (einhändig)", "family": "power", "equipment": ["kb"], "load": "kb",
+      "unilateral": true, "impact": 1, "unit": "reps", "easier": "kb-swing",
+      "cues": ["Wie beidhändig, Rumpf hält gegen die Drehung", "Freier Arm schwingt mit"],
+      "refs": [1]
+    },
+    {
+      "id": "explosive-step-up", "name": "Step-up explosiv", "family": "power", "equipment": ["step-small"], "load": "bw",
+      "unilateral": true, "impact": 1, "unit": "reps",
+      "cues": ["Fuss auf dem kleinen Step", "Schnell hochdrücken, Knie hochziehen", "Kontrolliert zurück"],
+      "refs": [1]
+    },
+    {
+      "id": "squat-jump-stick", "name": "Strecksprung mit stabiler Landung", "family": "power", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 2, "unit": "reps",
+      "cues": ["Aus halber Kniebeuge hochspringen", "Leise landen und 2 Sekunden halten", "Jede Wiederholung einzeln"],
+      "refs": [9]
+    },
+
+    {
+      "id": "drop-landing", "name": "Landung vom kleinen Step (Drop Landing)", "family": "plyo-low", "equipment": ["step-small"], "load": "bw",
+      "unilateral": false, "impact": 2, "unit": "contacts", "harder": "drop-jump",
+      "cues": ["Vom Step hinunter steigen, nicht springen", "Weich und leise landen, Knie über den Füssen", "Landung 2 Sekunden halten"],
+      "refs": [9]
+    },
+    {
+      "id": "pogo-hops", "name": "Pogo-Hüpfer (beidbeinig an Ort)", "family": "plyo-low", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 2, "unit": "contacts", "harder": "sl-pogo",
+      "cues": ["Kleine, schnelle Hüpfer aus den Fussgelenken", "Knie fast gestreckt, kurzer Bodenkontakt", "Wie ein Flummi"],
+      "refs": [5, 9]
+    },
+    {
+      "id": "skipping", "name": "Skipping (A-Skip)", "family": "plyo-low", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 2, "unit": "contacts",
+      "cues": ["Knie nach vorne-oben", "Fuss aktiv unter den Körper setzen", "Rhythmisch, nicht hastig"],
+      "refs": [9]
+    },
+
+    {
+      "id": "lateral-hops", "name": "Seitwärts-Hüpfer über eine Linie", "family": "plyo-mid", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 2, "unit": "contacts",
+      "cues": ["Beidbeinig seitlich hin und her", "Kurzer Bodenkontakt", "Oberkörper bleibt ruhig"],
+      "refs": [9]
+    },
+    {
+      "id": "broad-jump", "name": "Standweitsprung", "family": "plyo-mid", "equipment": ["bw"], "load": "bw",
+      "unilateral": false, "impact": 3, "unit": "contacts",
+      "cues": ["Arme schwingen mit", "Weit springen, stabil landen", "Zurückgehen, nicht zurückspringen"],
+      "refs": [9]
+    },
+    {
+      "id": "skater-bound", "name": "Skater-Sprünge seitlich", "family": "plyo-mid", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 2, "unit": "contacts",
+      "cues": ["Von einem Bein seitlich aufs andere", "Landung kurz stabilisieren", "Gut für Trail-Trittsicherheit"],
+      "refs": [9]
+    },
+
+    {
+      "id": "sl-pogo", "name": "Einbeinige Hüpfer an Ort", "family": "plyo-high", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 3, "unit": "contacts", "easier": "pogo-hops",
+      "cues": ["Kleine Hüpfer auf einem Bein", "Knie stabil über dem Fuss", "Kurzer Kontakt"],
+      "refs": [5, 9]
+    },
+    {
+      "id": "sl-line-hops", "name": "Einbeinige Linien-Hüpfer (vor/zurück, seitlich)", "family": "plyo-high", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 3, "unit": "contacts",
+      "cues": ["Über eine Linie hüpfen", "Gleichgewicht und Tempo", "Erst vor/zurück, dann seitlich"],
+      "refs": [9]
+    },
+    {
+      "id": "bounds", "name": "Sprunglauf (Bounds)", "family": "plyo-high", "equipment": ["bw"], "load": "bw",
+      "unilateral": true, "impact": 3, "unit": "contacts",
+      "cues": ["Lange, federnde Laufschritte", "Abdruck nach vorne-oben", "Auf weichem, ebenem Untergrund"],
+      "refs": [5, 9]
+    },
+    {
+      "id": "drop-jump", "name": "Niedersprung mit Absprung (Drop Jump)", "family": "plyo-high", "equipment": ["step-small"], "load": "bw",
+      "unilateral": false, "impact": 3, "unit": "contacts", "easier": "drop-landing",
+      "cues": ["Vom kleinen Step steigen", "Landen und sofort wieder hoch – Boden ist heiss", "Nur kleiner Step"],
+      "refs": [9]
+    }
+  ]
+}

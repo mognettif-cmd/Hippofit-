@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>HippoFit</title>
+  <meta name="description" content="Evidenzbasiertes Hybrid-Training: Kraft, Ausdauer, Beckenboden – offline und privat.">
+  <meta name="theme-color" content="#7b6f9c" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1a24" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="HippoFit">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn back" id="back" aria-label="Zurück" hidden>‹</button>
+    <h1 id="title">HippoFit</h1>
+    <span class="ampel-chip" id="ampel" hidden></span>
+  </header>
+
+  <main id="view" tabindex="-1">
+    <div class="loading"><img src="icons/hippo-anim.svg" alt="" width="120" height="120"><p>Lade …</p></div>
+  </main>
+
+  <nav class="tabbar" aria-label="Hauptnavigation">
+    <a href="#/heute" data-tab="heute"><span class="ti"><img src="icons/hippo.svg" alt="" width="26" height="26"></span><span>Heute</span></a>
+    <a href="#/training" data-tab="training"><span class="ti">🏋️</span><span>Training</span></a>
+    <a href="#/fortschritt" data-tab="fortschritt"><span class="ti">📈</span><span>Fortschritt</span></a>
+    <a href="#/theorie" data-tab="theorie"><span class="ti">📖</span><span>Theorie</span></a>
+    <a href="#/mehr" data-tab="mehr"><span class="ti">⚙️</span><span>Mehr</span></a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

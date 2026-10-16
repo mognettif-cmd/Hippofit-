@@ -1,0 +1,355 @@
+{
+  "zones": [
+    { "id": "Z1", "name": "Sehr locker", "rpe": "2–3", "talk": "Singen wäre fast möglich", "use": "Aufwärmen, Erholung, lange Wanderungen" },
+    { "id": "Z2", "name": "Locker (Grundlage)", "rpe": "3–4", "talk": "Ganze Sätze sprechen geht problemlos", "use": "Grundlagenausdauer – der grösste Teil des Trainings" },
+    { "id": "Z3", "name": "Zügig (Tempo/Schwelle)", "rpe": "5–6", "talk": "Nur noch kurze Sätze", "use": "Tempoläufe, zügig bergauf" },
+    { "id": "Z4", "name": "Hart", "rpe": "7–8", "talk": "Nur einzelne Wörter", "use": "Bergintervalle" },
+    { "id": "Z5", "name": "Sehr hart", "rpe": "9–10", "talk": "Sprechen unmöglich", "use": "Nur in Tests" }
+  ],
+
+  "doses": {
+    "warmup":    { "1": { "sets": "1", "reps": "6–10 / 1–2 Min", "rest": 0 }, "2": { "sets": "1", "reps": "6–10 / 1–2 Min", "rest": 0 }, "3": { "sets": "1", "reps": "6–10 / 1–2 Min", "rest": 0 }, "4": { "sets": "1", "reps": "6–10 / 1–2 Min", "rest": 0 } },
+    "main":      { "1": { "sets": "2–3", "reps": "10–12", "rir": 3, "rest": 90 }, "2": { "sets": "3–4", "reps": "5–8", "rir": 2, "rest": 150 }, "3": { "sets": "3", "reps": "4–6", "rir": 2, "rest": 150 }, "4": { "sets": "2–3", "reps": "4–6", "rir": 2, "rest": 150 } },
+    "accessory": { "1": { "sets": "2", "reps": "12–15", "rir": 3, "rest": 60 }, "2": { "sets": "3", "reps": "8–10", "rir": 2, "rest": 90 }, "3": { "sets": "2–3", "reps": "8–10", "rir": 2, "rest": 90 }, "4": { "sets": "2", "reps": "8–10", "rir": 2, "rest": 90 } },
+    "eccentric": { "1": { "sets": "2", "reps": "8 (3 s ablassen)", "rir": 3, "rest": 60 }, "2": { "sets": "3", "reps": "6–8 (4 s ablassen)", "rir": 2, "rest": 90 }, "3": { "sets": "3", "reps": "6 (4 s ablassen)", "rir": 2, "rest": 90 }, "4": { "sets": "2", "reps": "6 (4 s ablassen)", "rir": 2, "rest": 90 } },
+    "calf":      { "1": { "sets": "2", "reps": "15", "rir": 3, "rest": 60 }, "2": { "sets": "3", "reps": "8–12 (schwer)", "rir": 2, "rest": 90 }, "3": { "sets": "3", "reps": "8–12 (schwer)", "rir": 2, "rest": 90 }, "4": { "sets": "2–3", "reps": "8–12 (schwer)", "rir": 2, "rest": 90 } },
+    "carry":     { "1": { "sets": "3", "reps": "30 s", "rest": 60 }, "2": { "sets": "3", "reps": "40 s", "rest": 75 }, "3": { "sets": "3", "reps": "45 s", "rest": 75 }, "4": { "sets": "3", "reps": "45 s", "rest": 75 } },
+    "core":      { "1": { "sets": "2", "reps": "20–30 s / 8 Wdh", "rest": 45 }, "2": { "sets": "3", "reps": "30–40 s / 10 Wdh", "rest": 45 }, "3": { "sets": "3", "reps": "30–45 s / 10–12 Wdh", "rest": 45 }, "4": { "sets": "2–3", "reps": "30–45 s / 10–12 Wdh", "rest": 45 } },
+    "power":     { "1": { "sets": "2", "reps": "8 (Technik, leicht)", "rir": 4, "rest": 60 }, "2": { "sets": "3", "reps": "6", "rir": 3, "rest": 90 }, "3": { "sets": "3–4", "reps": "5", "rir": 3, "rest": 120 }, "4": { "sets": "3", "reps": "5", "rir": 3, "rest": 120 } },
+    "pf":        { "1": { "sets": "3", "reps": "8–12 maximal", "rest": 60 }, "2": { "sets": "3", "reps": "8–12 maximal", "rest": 60 }, "3": { "sets": "3", "reps": "8–12 maximal", "rest": 60 }, "4": { "sets": "3", "reps": "8–12 maximal", "rest": 60 } }
+  },
+  "doseNotes": {
+    "main": "Schwere Grundübung. Steht immer am Anfang. Ab Phase 2 schwer (≈ 80 % 1RM), aber nie bis zum Versagen.",
+    "power": "So schnell wie möglich in der Aufwärtsbewegung. Höchstens 24 Wiederholungen pro Übung und Einheit. Satz beenden, sobald es langsamer wird.",
+    "carry": "Zeit pro Seite bei einseitigen Varianten. Gewicht so wählen, dass die Haltung bis zum Schluss sauber bleibt.",
+    "pf": "Dazu gehört das tägliche Beckenboden-Häkchen (3 × 8–12 maximale Kontraktionen pro Tag, 16 Wochen).",
+    "rir": "RIR = Wiederholungen in Reserve. RIR 2 heisst: noch 2 saubere Wiederholungen wären möglich gewesen."
+  },
+
+  "phases": [
+    {
+      "id": 1, "name": "Basis", "weeks": "3–4",
+      "goal": "Technik, Sehnen und Gelenke vorbereiten, Rumpf und Beckenboden aufbauen, lockere Grundlagenausdauer.",
+      "strength": "2–3 Sätze × 10–15 Wdh, RIR 3–4",
+      "endurance": "2 × locker (Z1–2), keine harten Einheiten",
+      "impactAllowed": 1,
+      "exitCriteria": [
+        "Alle Grundübungen sauber ausgeführt (Selbst-Check)",
+        "Mindestens 6 Krafteinheiten in dieser Phase",
+        "Beckenboden-Ampel nicht rot"
+      ],
+      "refs": [1, 2, 20]
+    },
+    {
+      "id": 2, "name": "Kraft", "weeks": "6",
+      "goal": "Schwere Beinkraft, einbeinige Stabilität, exzentrische Bergab-Kraft, Tragen.",
+      "strength": "3–4 Sätze × 5–8 Wdh, RIR 2–3",
+      "endurance": "2 × locker + 1 × Bergintervall oder Tempo",
+      "impactAllowed": 1,
+      "exitCriteria": [
+        "Geschätztes 1RM in Kniebeuge/Split Squat gestiegen oder Gewicht in den Hauptübungen erhöht",
+        "Mindestens 10 Krafteinheiten in dieser Phase",
+        "Testbatterie gemacht"
+      ],
+      "refs": [1, 5, 6, 7, 11, 20]
+    },
+    {
+      "id": 3, "name": "Kraft & Power", "weeks": "4–6",
+      "goal": "Schnellkraft mit Kettlebell-Swing, explosiven Step-ups und ersten Sprüngen mit wenig Aufprall. Die schwere Kraft bleibt.",
+      "strength": "3 × 4–6 schwer + 3 × 5 explosiv",
+      "endurance": "wie Phase 2 + 1 × lang mit Höhenmetern",
+      "impactAllowed": 2,
+      "exitCriteria": [
+        "Eintrittstest Phase 4 bestanden (alle Punkte ohne Symptome)",
+        "Beckenboden-Ampel grün"
+      ],
+      "refs": [1, 5, 6, 12, 13]
+    },
+    {
+      "id": 4, "name": "Reaktivkraft & Plyometrie", "weeks": "6–8",
+      "goal": "Kurze Bodenkontakte, Hüpfen, Sprunglauf, Drop Jumps vom kleinen Step. Kombiniert mit schwerer Kraft – das wirkt am stärksten.",
+      "strength": "2–3 × 4–6 schwer (Erhalt) + Plyometrie",
+      "endurance": "wie Phase 3, Bergab-Technik dazu",
+      "impactAllowed": 3,
+      "exitCriteria": [
+        "Mindestens 12 Plyometrie-Einheiten (Stufe 3 erreicht)",
+        "Testbatterie gemacht"
+      ],
+      "refs": [5, 6, 7, 9, 10]
+    },
+    {
+      "id": 5, "name": "Wahl-Modus", "weeks": "laufend",
+      "goal": "Alle Blöcke frei wählbar. Die App achtet auf die Wochen-Balance und erinnert alle 6 Wochen an die Testbatterie.",
+      "strength": "gemischt, mind. 2 × Kraft pro Woche",
+      "endurance": "pyramidal: ~75–80 % locker",
+      "impactAllowed": 3,
+      "exitCriteria": [],
+      "refs": [1, 2, 15]
+    }
+  ],
+
+  "plyoLevels": [
+    { "level": 1, "name": "Stufe 1 – beidbeinig, tief", "contacts": "40–60", "weeksInPhase4": "1–2", "family": "plyo-low" },
+    { "level": 2, "name": "Stufe 2 – seitlich und weit", "contacts": "60–85", "weeksInPhase4": "3–4", "family": "plyo-mid" },
+    { "level": 3, "name": "Stufe 3 – einbeinig und reaktiv", "contacts": "80–100", "weeksInPhase4": "5–8", "family": "plyo-high" }
+  ],
+  "plyoNote": "Die Kontaktzahlen sind Praxis-Richtwerte (Evidenzgrad C). Gesichert ist: Plyometrie wirkt am besten kombiniert mit Krafttraining, über mehr als 7 Wochen und 2 × pro Woche.",
+
+  "blocks": [
+    {
+      "id": "K1", "name": "Beine & Berg", "category": "strength", "minPhase": 1, "maxImpact": 0,
+      "purpose": "Kräftige Beine für bergauf drücken und bergab bremsen.",
+      "refs": [1, 5, 11, 17, 19],
+      "minutes": { "short": 30, "normal": 45 },
+      "items": [
+        { "family": "warmup", "ex": "wu-march", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-lunge-rotation", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-calf-ankle", "dose": "warmup", "versions": ["normal"] },
+        { "family": "squat", "ex": "goblet-squat", "byPhase": { "1": "box-squat", "2": "goblet-squat", "3": "db-front-squat", "4": "db-front-squat" }, "dose": "main", "versions": ["short", "normal"] },
+        { "family": "split", "ex": "split-squat", "byPhase": { "1": "split-squat", "2": "bulgarian-split-squat", "3": "bulgarian-split-squat", "4": "bulgarian-split-squat" }, "dose": "main", "versions": ["short", "normal"] },
+        { "family": "sl-hinge", "ex": "kickstand-rdl", "byPhase": { "3": "sl-rdl", "4": "sl-rdl" }, "dose": "accessory", "versions": ["short", "normal"] },
+        { "family": "step", "ex": "eccentric-step-down", "byPhase": { "3": "eccentric-step-down-big", "4": "eccentric-step-down-big" }, "dose": "eccentric", "versions": ["short", "normal"] },
+        { "family": "step", "ex": "step-up", "dose": "accessory", "versions": ["normal"] },
+        { "family": "calf", "ex": "calf-raise", "byPhase": { "2": "sl-calf-raise", "3": "sl-calf-raise", "4": "sl-calf-raise" }, "dose": "calf", "versions": ["short", "normal"] },
+        { "family": "calf", "ex": "bent-knee-calf-raise", "dose": "calf", "versions": ["normal"] }
+      ]
+    },
+    {
+      "id": "K2", "name": "Ganzkörper & Tragen", "category": "strength", "minPhase": 1, "maxImpact": 0,
+      "purpose": "Heben, Ziehen, Drücken und Tragen – für Kinder, Einkäufe, Pakete und Garten.",
+      "refs": [1, 20, 22, 23],
+      "minutes": { "short": 30, "normal": 45 },
+      "items": [
+        { "family": "warmup", "ex": "wu-march", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-hip-hinge", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-world-stretch", "dose": "warmup", "versions": ["normal"] },
+        { "family": "hinge", "ex": "kb-deadlift", "byPhase": { "2": "db-rdl", "3": "db-rdl", "4": "db-rdl" }, "dose": "main", "versions": ["short", "normal"] },
+        { "family": "pull-v", "ex": "foot-assisted-pull-up", "byPhase": { "2": "negative-pull-up", "3": "negative-pull-up", "4": "pull-up" }, "dose": "main", "versions": ["short", "normal"] },
+        { "family": "push-h", "ex": "incline-push-up", "byPhase": { "2": "push-up", "3": "push-up", "4": "ring-push-up" }, "dose": "accessory", "versions": ["short", "normal"] },
+        { "family": "pull-h", "ex": "trx-row", "byPhase": { "3": "ring-row", "4": "ring-row" }, "dose": "accessory", "versions": ["normal"] },
+        { "family": "push-v", "ex": "hk-db-press", "byPhase": { "3": "db-overhead-press", "4": "db-overhead-press" }, "dose": "accessory", "versions": ["normal"] },
+        { "family": "hinge", "ex": "suitcase-deadlift", "dose": "accessory", "versions": ["normal"] },
+        { "family": "carry", "ex": "suitcase-carry", "dose": "carry", "versions": ["short", "normal"] },
+        { "family": "carry", "ex": "farmer-carry", "byPhase": { "3": "offset-carry", "4": "front-rack-carry" }, "dose": "carry", "versions": ["normal"] }
+      ]
+    },
+    {
+      "id": "K3", "name": "Rumpf, Rücken & Beckenboden", "category": "strength", "minPhase": 1, "maxImpact": 0,
+      "purpose": "Stabiler Rumpf beim einseitigen Tragen, belastbarer Rücken, kräftiger Beckenboden.",
+      "refs": [22, 23, 24, 25, 27, 28],
+      "minutes": { "short": 20, "normal": 35 },
+      "items": [
+        { "family": "warmup", "ex": "wu-glute-bridge", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "pf", "ex": "pf-strength", "dose": "pf", "versions": ["short", "normal"] },
+        { "family": "pf", "ex": "pf-quick", "dose": "core", "versions": ["normal"] },
+        { "family": "pf", "ex": "pf-knack", "dose": "core", "versions": ["normal"] },
+        { "family": "anti-ext", "ex": "dead-bug", "byPhase": { "2": "front-plank", "3": "ball-rollout", "4": "ball-rollout" }, "dose": "core", "versions": ["short", "normal"] },
+        { "family": "anti-rot", "ex": "bird-dog", "byPhase": { "2": "trx-pallof", "3": "trx-pallof", "4": "trx-pallof" }, "dose": "core", "versions": ["short", "normal"] },
+        { "family": "anti-lat", "ex": "side-plank-knee", "byPhase": { "2": "side-plank", "3": "side-plank", "4": "side-plank" }, "dose": "core", "versions": ["short", "normal"] },
+        { "family": "back", "ex": "ball-back-extension", "dose": "accessory", "versions": ["normal"] },
+        { "family": "hamstring", "ex": "ball-leg-curl", "byPhase": { "3": "ball-leg-curl-sl", "4": "ball-leg-curl-sl" }, "dose": "accessory", "versions": ["normal"] },
+        { "family": "carry", "ex": "hug-carry", "dose": "carry", "versions": ["normal"] },
+        { "family": "pf", "ex": "pf-lift-breath", "dose": "core", "versions": ["normal"] }
+      ]
+    },
+    {
+      "id": "P1", "name": "Power", "category": "power", "minPhase": 3, "maxImpact": 2,
+      "purpose": "Kraft schnell entfalten: Hüftstreckung, Abdruck, erste Sprünge mit wenig Aufprall.",
+      "refs": [1, 5, 6, 12],
+      "minutes": { "short": 30, "normal": 45 },
+      "rule": "Power zuerst, nie nach einem harten Lauf. Am selben Tag wie ein Lauf: Power vorher oder ≥ 3 h Abstand.",
+      "items": [
+        { "family": "warmup", "ex": "wu-march", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-hip-hinge", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-calf-ankle", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "power", "ex": "kb-swing", "byPhase": { "4": "kb-swing-1h" }, "dose": "power", "versions": ["short", "normal"] },
+        { "family": "power", "ex": "explosive-step-up", "dose": "power", "versions": ["short", "normal"] },
+        { "family": "power", "ex": "squat-jump-stick", "dose": "power", "versions": ["normal"] },
+        { "family": "squat", "ex": "db-front-squat", "dose": "main", "versions": ["short", "normal"] },
+        { "family": "sl-hinge", "ex": "sl-rdl", "dose": "accessory", "versions": ["normal"] },
+        { "family": "calf", "ex": "sl-calf-raise", "dose": "calf", "versions": ["normal"] }
+      ]
+    },
+    {
+      "id": "P2", "name": "Reaktiv & Plyometrie", "category": "plyo", "minPhase": 4, "maxImpact": 3, "requiresGreen": true,
+      "purpose": "Kurze, federnde Bodenkontakte für eine bessere Laufökonomie und Trittsicherheit im Gelände.",
+      "refs": [5, 6, 7, 9, 10, 31, 32],
+      "minutes": { "short": 30, "normal": 45 },
+      "rule": "Nur bei grüner Beckenboden-Ampel. Leise landen. Abbrechen bei Urinverlust, Druckgefühl oder Schmerz.",
+      "levels": {
+        "1": [
+          { "family": "plyo-low", "ex": "skipping", "sets": "3", "reps": "10 Kontakte", "contacts": 30 },
+          { "family": "plyo-low", "ex": "pogo-hops", "sets": "2", "reps": "10 Kontakte", "contacts": 20 },
+          { "family": "plyo-low", "ex": "drop-landing", "sets": "2", "reps": "5", "contacts": 10 }
+        ],
+        "2": [
+          { "family": "plyo-low", "ex": "pogo-hops", "sets": "3", "reps": "10 Kontakte", "contacts": 30 },
+          { "family": "plyo-mid", "ex": "lateral-hops", "sets": "3", "reps": "10 Kontakte", "contacts": 30 },
+          { "family": "plyo-mid", "ex": "skater-bound", "sets": "2", "reps": "6 pro Seite", "contacts": 24 },
+          { "family": "plyo-mid", "ex": "broad-jump", "sets": "2", "reps": "4", "contacts": 8 }
+        ],
+        "3": [
+          { "family": "plyo-low", "ex": "pogo-hops", "sets": "2", "reps": "10 Kontakte", "contacts": 20 },
+          { "family": "plyo-high", "ex": "sl-pogo", "sets": "2", "reps": "8 pro Seite", "contacts": 32 },
+          { "family": "plyo-high", "ex": "sl-line-hops", "sets": "2", "reps": "6 pro Seite", "contacts": 24 },
+          { "family": "plyo-high", "ex": "bounds", "sets": "2", "reps": "6", "contacts": 12 },
+          { "family": "plyo-high", "ex": "drop-jump", "sets": "2", "reps": "5", "contacts": 10 }
+        ]
+      },
+      "items": [
+        { "family": "warmup", "ex": "wu-march", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-calf-ankle", "dose": "warmup", "versions": ["short", "normal"] },
+        { "family": "warmup", "ex": "wu-lunge-rotation", "dose": "warmup", "versions": ["normal"] },
+        { "family": "plyo", "ex": "@level", "dose": "plyo", "versions": ["short", "normal"] },
+        { "family": "split", "ex": "bulgarian-split-squat", "dose": "main", "versions": ["normal"] },
+        { "family": "calf", "ex": "sl-calf-raise", "dose": "calf", "versions": ["short", "normal"] }
+      ]
+    },
+
+    {
+      "id": "A1", "name": "Grundlage", "category": "endurance", "minPhase": 1, "maxImpact": 1,
+      "purpose": "Lockerer Lauf oder zügige Wanderung. Der grösste Teil des Ausdauertrainings.",
+      "refs": [2, 15, 16],
+      "modes": ["Lauf", "Wanderung"],
+      "minutes": { "short": 30, "normal": 50 },
+      "segments": {
+        "short":  [ { "min": 5, "zone": "Z1", "label": "Einlaufen / einlaufen gehen" }, { "min": 22, "zone": "Z2", "label": "Locker – Sprechtest" }, { "min": 3, "zone": "Z1", "label": "Auslaufen" } ],
+        "normal": [ { "min": 5, "zone": "Z1", "label": "Einlaufen" }, { "min": 40, "zone": "Z2", "label": "Locker – Sprechtest" }, { "min": 5, "zone": "Z1", "label": "Auslaufen" } ]
+      },
+      "variants": {
+        "yellow": "Geh-Lauf: 10 × (2 Min laufen / 1 Min gehen) oder zügige Wanderung",
+        "red": "Zügig gehen oder wandern statt laufen"
+      }
+    },
+    {
+      "id": "A2", "name": "Bergintervalle", "category": "endurance", "minPhase": 2, "maxImpact": 1,
+      "purpose": "Kurze, harte Abschnitte bergauf – Kraft und Ausdauer zugleich, mit wenig Aufprall.",
+      "refs": [15, 16],
+      "modes": ["Lauf", "Wanderung (sehr zügig/Stöcke)"],
+      "minutes": { "short": 30, "normal": 45 },
+      "segments": {
+        "short":  [ { "min": 10, "zone": "Z1", "label": "Einlaufen" }, { "repeat": 6, "work": { "sec": 60, "zone": "Z4", "label": "Bergauf hart" }, "rest": { "sec": 90, "zone": "Z1", "label": "Gehend zurück" } }, { "min": 5, "zone": "Z1", "label": "Auslaufen" } ],
+        "normal": [ { "min": 12, "zone": "Z1", "label": "Einlaufen" }, { "repeat": 8, "work": { "sec": 90, "zone": "Z4", "label": "Bergauf hart" }, "rest": { "sec": 120, "zone": "Z1", "label": "Gehend zurück" } }, { "min": 8, "zone": "Z1", "label": "Auslaufen" } ]
+      },
+      "variants": {
+        "yellow": "Bergauf sehr zügig gehen statt laufen (gleiche Intervalle)",
+        "red": "Bergauf sehr zügig gehen statt laufen (gleiche Intervalle)"
+      }
+    },
+    {
+      "id": "A3", "name": "Tempo", "category": "endurance", "minPhase": 2, "maxImpact": 1,
+      "purpose": "Zügige, gleichmässige Abschnitte – hebt die Schwelle, also das Tempo, das lange haltbar ist.",
+      "refs": [15, 16],
+      "modes": ["Lauf"],
+      "minutes": { "short": 30, "normal": 45 },
+      "segments": {
+        "short":  [ { "min": 8, "zone": "Z1", "label": "Einlaufen" }, { "repeat": 2, "work": { "sec": 480, "zone": "Z3", "label": "Zügig" }, "rest": { "sec": 120, "zone": "Z1", "label": "Locker" } }, { "min": 2, "zone": "Z1", "label": "Auslaufen" } ],
+        "normal": [ { "min": 10, "zone": "Z1", "label": "Einlaufen" }, { "repeat": 3, "work": { "sec": 480, "zone": "Z3", "label": "Zügig" }, "rest": { "sec": 120, "zone": "Z1", "label": "Locker" } }, { "min": 5, "zone": "Z1", "label": "Auslaufen" } ]
+      },
+      "variants": {
+        "yellow": "Zügig bergauf gehen (Z3) statt Tempolauf",
+        "red": "Zügig bergauf gehen (Z3) statt Tempolauf"
+      }
+    },
+    {
+      "id": "A4", "name": "Lang & Höhe", "category": "endurance", "minPhase": 1, "maxImpact": 1,
+      "purpose": "Langer Lauf oder Wanderung mit Höhenmetern. Bergab bewusst und kontrolliert.",
+      "refs": [17, 19, 21],
+      "modes": ["Lauf", "Wanderung", "Trail"],
+      "minutes": { "short": 60, "normal": 120 },
+      "segments": {
+        "short":  [ { "min": 60, "zone": "Z2", "label": "Locker, Höhenmeter sammeln" } ],
+        "normal": [ { "min": 120, "zone": "Z2", "label": "Locker, Höhenmeter sammeln (60–180 Min)" } ]
+      },
+      "rule": "Ein Lauf soll höchstens 10 % länger sein als der längste Lauf der letzten 30 Tage. Bei einer Tour mit viel Abstieg: 2–4 Tage vorher eine kurze exzentrische Einheit (K1 kurz).",
+      "variants": {
+        "yellow": "Wanderung statt Lauf",
+        "red": "Wanderung statt Lauf, Abstiege mit Stöcken"
+      }
+    },
+    {
+      "id": "A5", "name": "Bergab-Technik", "category": "endurance", "minPhase": 2, "maxImpact": 2,
+      "purpose": "Die Beine an Bergab gewöhnen – das beste Mittel gegen Muskelkater und Kraftverlust auf langen Abstiegen.",
+      "refs": [17, 18, 19],
+      "modes": ["Lauf", "Trail"],
+      "minutes": { "short": 30, "normal": 45 },
+      "segments": {
+        "short":  [ { "min": 10, "zone": "Z2", "label": "Einlaufen" }, { "repeat": 4, "work": { "sec": 60, "zone": "Z2", "label": "Bergab locker, kurze schnelle Schritte" }, "rest": { "sec": 120, "zone": "Z1", "label": "Gehend hoch" } }, { "min": 5, "zone": "Z1", "label": "Auslaufen" } ],
+        "normal": [ { "min": 12, "zone": "Z2", "label": "Einlaufen" }, { "repeat": 6, "work": { "sec": 120, "zone": "Z2", "label": "Bergab locker, kurze schnelle Schritte" }, "rest": { "sec": 180, "zone": "Z1", "label": "Gehend hoch" } }, { "min": 5, "zone": "Z1", "label": "Auslaufen" } ]
+      },
+      "progression": "Start: 4 × 1 Min auf mässigem Gefälle. Pro Woche +1 Wiederholung oder +30 s, bis 8 × 2 Min. Erst dann steiler.",
+      "variants": {
+        "yellow": "Bergab gehen mit kurzen, schnellen Schritten",
+        "red": "Bergab gehen mit Stöcken"
+      }
+    },
+    {
+      "id": "H1", "name": "Hybrid kurz", "category": "hybrid", "minPhase": 1, "maxImpact": 1,
+      "purpose": "Für Tage mit wenig Zeit: 20 Min Kraft-Zirkel, dann 15 Min locker.",
+      "refs": [12, 13],
+      "minutes": { "short": 35, "normal": 35 },
+      "circuit": { "rounds": 3, "workSec": 40, "restSec": 20 },
+      "items": [
+        { "family": "squat", "ex": "goblet-squat", "dose": "circuit", "versions": ["short", "normal"] },
+        { "family": "pull-h", "ex": "trx-row", "dose": "circuit", "versions": ["short", "normal"] },
+        { "family": "carry", "ex": "suitcase-carry", "dose": "circuit", "versions": ["short", "normal"] },
+        { "family": "power", "ex": "kb-deadlift-speed", "byPhase": { "3": "kb-swing", "4": "kb-swing" }, "dose": "circuit", "versions": ["short", "normal"] },
+        { "family": "anti-ext", "ex": "dead-bug", "dose": "circuit", "versions": ["short", "normal"] }
+      ],
+      "segments": {
+        "short":  [ { "min": 15, "zone": "Z2", "label": "Locker laufen, gehen oder Velo" } ],
+        "normal": [ { "min": 15, "zone": "Z2", "label": "Locker laufen, gehen oder Velo" } ]
+      }
+    },
+    {
+      "id": "PF", "name": "Beckenboden-Häkchen (täglich)", "category": "daily", "minPhase": 1, "maxImpact": 0,
+      "purpose": "3 Minuten täglich, 16 Wochen – wie in der Studie, in der 64 % der Sportlerinnen weniger Beschwerden hatten.",
+      "refs": [24, 25, 27, 28],
+      "minutes": { "short": 3, "normal": 5 },
+      "items": [
+        { "family": "pf", "ex": "pf-strength", "dose": "pf", "versions": ["short", "normal"] },
+        { "family": "pf", "ex": "pf-quick", "dose": "core", "versions": ["normal"] }
+      ]
+    }
+  ],
+
+  "weekTemplates": {
+    "1": {
+      "3": [ ["K1", "A1"], ["K2", "K3"], ["A4"] ],
+      "4": [ ["K1"], ["A1"], ["K2", "K3"], ["A4"] ]
+    },
+    "2": {
+      "3": [ ["K1", "A1"], ["K2", "A2"], ["A4"] ],
+      "4": [ ["K1"], ["A2"], ["K2", "K3"], ["A4"] ]
+    },
+    "3": {
+      "3": [ ["P1", "K1"], ["K2", "A2"], ["A4"] ],
+      "4": [ ["P1", "K1"], ["A2"], ["K2", "K3"], ["A4"] ]
+    },
+    "4": {
+      "3": [ ["P2", "K1"], ["K2", "A3"], ["A4", "A5"] ],
+      "4": [ ["P2", "K1"], ["A2"], ["K2", "K3"], ["A4", "A5"] ]
+    },
+    "5": {
+      "3": [ ["K1", "A1"], ["P2", "K2"], ["A4"] ],
+      "4": [ ["K1"], ["A2"], ["P2", "K2"], ["A4"] ]
+    }
+  },
+  "templateNote": "Mehrere Blöcke an einem Tag: in der gezeigten Reihenfolge und jeweils in der Kurzversion. Das tägliche Beckenboden-Häkchen kommt immer dazu.",
+
+  "rules": [
+    { "id": "strength-2x", "text": "Mindestens 2 Krafteinheiten (K1, K2 oder P1) pro Woche.", "refs": [1, 2], "grade": "A" },
+    { "id": "easy-share", "text": "Rund 75–80 % der Ausdauerzeit locker (Z1–Z2), höchstens 2 harte Ausdauereinheiten (A2, A3) pro Woche.", "refs": [15, 16], "grade": "A" },
+    { "id": "power-separation", "text": "Power- und Plyometrie-Blöcke nicht direkt nach einem Lauf. Am selben Tag: zuerst Power, dann Ausdauer – oder ≥ 3 h Abstand.", "refs": [12], "grade": "A" },
+    { "id": "main-first", "text": "Schwere Grundübungen stehen am Anfang einer Krafteinheit.", "refs": [1], "grade": "A" },
+    { "id": "no-failure", "text": "Kein Training bis zum Muskelversagen nötig. Standard: 1–3 Wiederholungen in Reserve.", "refs": [1, 3], "grade": "A" },
+    { "id": "rir-progression", "text": "Waren in allen Sätzen noch ≥ 3 Wiederholungen in Reserve, schlägt die App beim nächsten Mal mehr Gewicht oder Wiederholungen vor.", "refs": [1, 4], "grade": "A/B" },
+    { "id": "run-spike", "text": "Warnung, wenn ein Lauf mehr als 10 % länger ist als der längste Lauf der letzten 30 Tage.", "refs": [21], "grade": "B" },
+    { "id": "preconditioning", "text": "Vor einer Tour mit viel Abstieg: 2–4 Tage vorher eine kurze exzentrische Einheit (Step-downs, langsame Split Squats).", "refs": [19], "grade": "A/B" },
+    { "id": "impact-ampel", "text": "Sprünge und Laufintensität richten sich nach der Beckenboden-Ampel. Schweres Heben ist nicht verboten.", "refs": [29, 31, 32, 35], "grade": "C" },
+    { "id": "pf-daily", "text": "Beckenboden täglich: 3 × 8–12 maximale Kontraktionen, mindestens 16 Wochen.", "refs": [24, 25, 27], "grade": "A/B" },
+    { "id": "no-acwr", "text": "Keine ACWR-Ampel – die Wochenbelastung wird als sRPE × Minuten angezeigt.", "refs": [37, 38, 39], "grade": "B" },
+    { "id": "no-cycle-plan", "text": "Keine zyklusbasierte Planung; optionale Notiz, um eigene Muster zu erkennen.", "refs": [36], "grade": "B" },
+    { "id": "deload", "text": "Optional: Nach 4–6 Wochen eine leichtere Woche (Sätze halbieren), besonders wenn Schlaf und Alltag streng sind.", "refs": [], "grade": "C" }
+  ]
+}

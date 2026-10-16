@@ -1,0 +1,239 @@
+{
+  "intro": {
+    "title": "Wie du diesen Theorieteil liest",
+    "content": [
+      { "t": "p", "x": "Jedes Kapitel beginnt mit «Kurz gesagt». Wer nur das liest, weiss das Wichtigste. Danach folgen die Begründung und die Zahlen aus der Forschung." },
+      { "t": "p", "x": "Zahlen in eckigen Klammern wie [5] verweisen auf das Quellenverzeichnis am Schluss. Ein Tipp darauf zeigt die Quelle." },
+      { "t": "h", "x": "Evidenzgrade" },
+      { "t": "ul", "items": [
+        "A – Gestützt durch Meta-Analysen oder Leitlinien mit mittlerer bis hoher Vertrauenswürdigkeit.",
+        "B – Gestützt durch Meta-Analysen mit tiefer Vertrauenswürdigkeit, einzelne gute Studien oder grosse Beobachtungsstudien.",
+        "C – Konsens von Fachleuten, Biomechanik oder eine sinnvolle Übertragung. Gut begründet, aber nicht direkt geprüft."
+      ] },
+      { "t": "p", "x": "Wo die Forschung keine Antwort hat, steht das so da. Ehrlichkeit ist Teil eines evidenzbasierten Trainings." }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "c1", "title": "1. Die Hybrid-Athletin: Kraft und Ausdauer im Alltag", "grade": "A",
+      "summary": [
+        "Kraft- und Ausdauertraining zusammen sind für die Gesundheit und für den Alltag die beste Kombination.",
+        "Die WHO empfiehlt 150–300 Minuten moderate Ausdauer pro Woche und an mindestens 2 Tagen Krafttraining [2].",
+        "Der grösste Gewinn liegt im regelmässigen Tun, nicht in perfekten Details [1]."
+      ],
+      "content": [
+        { "t": "p", "x": "Eine Hybrid-Athletin ist kräftig und ausdauernd zugleich. Ziel dieses Programms ist kein Maximalgewicht und keine Marathon-Bestzeit. Ziel sind Beine, die eine lange Wanderung bergauf und bergab tragen, ein Rücken, der ein Kind auf der Hüfte, einen Wocheneinkauf oder Gartenerde gut aushält, und eine Ausdauer, die Freude macht." },
+        { "t": "h", "x": "Was die Forschung sagt" },
+        { "t": "p", "x": "Die WHO-Leitlinie von 2020 empfiehlt Erwachsenen 150–300 Minuten moderate oder 75–150 Minuten intensive Ausdaueraktivität pro Woche, dazu an mindestens zwei Tagen muskelkräftigendes Training [2]." },
+        { "t": "p", "x": "Das neue Positionspapier des American College of Sports Medicine von 2026 fasst 137 systematische Reviews mit über 30 000 Teilnehmenden zusammen. Krafttraining verbessert Kraft, Muskelmasse, Schnellkraft, Kraftausdauer, Gehgeschwindigkeit, Gleichgewicht und Alltagsfunktion [1]." },
+        { "t": "p", "x": "Viele Details, über die gern gestritten wird, spielen für das Ergebnis kaum eine Rolle [1]: Kettlebell oder Kurzhantel, komplizierte oder einfache Übungen, ausgeklügelte Periodisierungsmodelle oder Training bis zur völligen Erschöpfung." },
+        { "t": "h", "x": "Was das für dich heisst" },
+        { "t": "ul", "items": [
+          "Regelmässigkeit schlägt Perfektion. Lieber 3 × 30 Minuten pro Woche über Monate als 5 × 60 Minuten für drei Wochen.",
+          "Die App setzt auf Standardübungen mit deinem Material: Kettlebells, Kurzhanteln, Klimmzugstange, Ringe, TRX, Steps und Gymnastikball.",
+          "Funktionell heisst hier: Die Übungen ähneln dem, was du im Alltag und am Berg brauchst – einbeinig stehen, bergab bremsen, einseitig tragen."
+        ] }
+      ],
+      "refs": [1, 2]
+    },
+    {
+      "id": "c2", "title": "2. Krafttraining richtig dosieren", "grade": "A",
+      "summary": [
+        "Für mehr Kraft: schwere Lasten (rund 5–8 Wiederholungen), 2–3 Sätze, mindestens 2 × pro Woche, volle Bewegung [1].",
+        "Training bis zum Muskelversagen ist nicht nötig. 1–3 Wiederholungen in Reserve reichen [1, 3].",
+        "Nach Gefühl steuern (RIR) wirkt etwa gleich gut wie nach Prozenttabellen [4]."
+      ],
+      "content": [
+        { "t": "h", "x": "Last und Wiederholungen" },
+        { "t": "p", "x": "Maximalkraft wächst am besten mit schweren Lasten, das heisst rund 80 % des Gewichts, das du einmal schaffen würdest. In der Praxis entspricht das etwa 5–8 Wiederholungen mit noch 2–3 Wiederholungen im Tank. Weitere Faktoren laut ACSM: volle Bewegungsamplitude, 2–3 Sätze, die Kraftübung am Anfang der Einheit und mindestens zwei Einheiten pro Woche [1]." },
+        { "t": "p", "x": "Für Muskelaufbau zählt vor allem die Menge: etwa 10 oder mehr Sätze pro Muskelgruppe und Woche [1]. Für dieses Programm ist das zweitrangig. Wir bauen Muskeln auf, aber vor allem Funktion." },
+        { "t": "h", "x": "Wiederholungen in Reserve (RIR)" },
+        { "t": "p", "x": "RIR heisst: Wie viele saubere Wiederholungen wären noch möglich gewesen? RIR 2 bedeutet, du hörst auf, obwohl noch zwei gegangen wären. Training bis zum Versagen bringt für Kraft und Muskeln keinen Zusatznutzen [3]. Wird das Trainingsvolumen nicht angeglichen, ist Nicht-Versagen für die Kraft sogar etwas besser [3]." },
+        { "t": "p", "x": "Eine Meta-Analyse zeigt: Steuert man das Gewicht nach Gefühl (RIR/RPE) oder nach Geschwindigkeit, steigt die Kraft ähnlich wie mit fixen Prozentvorgaben [4]. Für einen Familienalltag mit wechselndem Schlaf ist das ideal. An einem müden Tag nimmst du automatisch etwas weniger." },
+        { "t": "h", "x": "So macht es die App" },
+        { "t": "ul", "items": [
+          "Nach jedem Satz tippst du «leicht», «passend» oder «hart».",
+          "Waren alle Sätze «leicht» (RIR ≥ 3), schlägt die App beim nächsten Mal das nächste Kettlebell-Gewicht oder mehr Wiederholungen vor.",
+          "Phase 1: 10–15 Wdh, RIR 3–4. Phase 2: 5–8 Wdh, RIR 2–3. Phase 3/4: 4–6 Wdh schwer plus explosive Übungen."
+        ] },
+        { "t": "h", "x": "Schnellkraft" },
+        { "t": "p", "x": "Schnellkraft (Power) wächst am besten mit mittleren Lasten (30–70 %), wenigen Wiederholungen (höchstens etwa 24 pro Übung und Einheit) und einer möglichst schnellen Aufwärtsbewegung. Power-Training verbessert zudem die Alltagsfunktion [1]. Darum gehören Kettlebell-Swings und explosive Step-ups ins Programm." }
+      ],
+      "refs": [1, 3, 4]
+    },
+    {
+      "id": "c3", "title": "3. Vom Fundament zur Reaktivkraft", "grade": "A",
+      "summary": [
+        "Schweres Krafttraining verbessert die Laufökonomie und die Laufleistung [5, 6, 7].",
+        "Am stärksten wirkt die Kombination aus schwerer Kraft und Plyometrie [5, 6].",
+        "Plyometrie allein bringt wenig. Darum kommt sie im Aufbau nach der Kraft und ersetzt sie nicht [7, 10]."
+      ],
+      "content": [
+        { "t": "h", "x": "Warum Kraft fürs Laufen und Wandern?" },
+        { "t": "p", "x": "Laufökonomie heisst: Wie viel Energie brauchst du für ein bestimmtes Tempo? Eine bessere Ökonomie bedeutet, dass das gleiche Tempo leichter fällt. Eine grosse Meta-Analyse mit über 650 Läuferinnen und Läufern zeigt [5]: Schweres Krafttraining verbessert die Ökonomie (kleiner Effekt), kombinierte Methoden wirken stärker (moderater Effekt)." },
+        { "t": "p", "x": "Auch die Leistung im Zeitlauf steigt: moderat mit schwerem Krafttraining, deutlich mit kombinierten Methoden [6]. Dabei ändert sich die VO2max kaum [6, 8]. Die Verbesserung kommt aus kräftigeren, effizienteren Beinen, nicht aus einem grösseren «Motor»." },
+        { "t": "p", "x": "Für dich besonders interessant: Plyometrie verbessert die Ökonomie vor allem bei Tempi bis etwa 12 km/h [5], also genau im Bereich von Freizeitläuferinnen." },
+        { "t": "p", "x": "Sprungtraining verbessert bei Ausdauerläufer:innen zudem die Zeit über 2–5 km, die Sprungkraft, die Reaktivkraft und die Kraftentwicklung, also wie schnell Kraft aufgebaut wird [9]." },
+        { "t": "h", "x": "Warum die Reihenfolge?" },
+        { "t": "ul", "items": [
+          "Schweres Krafttraining ist der Plyometrie allein überlegen [7].",
+          "Plyometrie allein wirkt nur trivial auf die Ökonomie, kombiniert mit Krafttraining aber gross [10].",
+          "Längere Programme (10–14 Wochen) wirken besser als kurze [7].",
+          "Sehnen passen sich vor allem an hohe Lasten an, und das braucht Zeit, eher 12 Wochen und mehr [11]."
+        ] },
+        { "t": "p", "x": "Darum baut die App so auf: Basis (Technik, Sehnen) → Kraft (schwer) → Kraft & Power → Reaktivkraft & Plyometrie. Sobald die Sprünge dazukommen, bleibt die schwere Kraft im Programm, denn die Kombination wirkt am besten." },
+        { "t": "h", "x": "Weniger Verletzungen" },
+        { "t": "p", "x": "Krafttraining senkt das Risiko für akute und Überlastungsverletzungen auf etwa einen Drittel (RR 0,34), und zwar umso mehr, je mehr trainiert wird [20]." },
+        { "t": "h", "x": "Plyometrie dosieren" },
+        { "t": "p", "x": "Gezählt werden Bodenkontakte. Die App startet in Phase 4 mit 40–60 Kontakten pro Einheit (beidbeinig, tief) und steigert über 6–8 Wochen auf 80–100 (einbeinig, reaktiv). Diese Zahlen sind Praxis-Richtwerte (Grad C). Gesichert ist: mehr als 7 Wochen und mehr als 2 Einheiten pro Woche wirken besser [10]." }
+      ],
+      "refs": [5, 6, 7, 8, 9, 10, 11, 20]
+    },
+    {
+      "id": "c4", "title": "4. Ausdauer: locker, zügig, bergauf und bergab", "grade": "A/B",
+      "summary": [
+        "Der grösste Teil des Ausdauertrainings ist locker. Bei Freizeitsportlerinnen wirkt eine pyramidale Verteilung mindestens so gut wie eine polarisierte [15].",
+        "Bergab-Laufen erzeugt Muskelkater und Kraftverlust. Die beste Vorbereitung ist, bergab regelmässig zu üben [17].",
+        "Ein Lauf, der mehr als 10 % länger ist als dein längster der letzten 30 Tage, erhöht das Verletzungsrisiko [21]."
+      ],
+      "content": [
+        { "t": "h", "x": "Intensitätszonen und Sprechtest" },
+        { "t": "p", "x": "Die App nutzt fünf Zonen, die du ohne Uhr erkennst. Z2 (locker): ganze Sätze sprechen geht. Z3 (zügig): nur noch kurze Sätze. Z4 (hart): nur noch einzelne Wörter. Eine Pulsuhr ist hilfreich, aber nicht nötig." },
+        { "t": "h", "x": "Wie viel locker, wie viel hart?" },
+        { "t": "p", "x": "Polarisiert heisst: sehr viel locker, etwas sehr hart, kaum etwas dazwischen. Pyramidal heisst: viel locker, etwas zügig, wenig sehr hart." },
+        { "t": "p", "x": "Eine Netzwerk-Meta-Analyse mit Einzeldaten aus 13 Studien fand insgesamt keinen Unterschied zwischen den beiden. Kompetitive Athlet:innen profitierten aber eher von polarisiert, Freizeitsportler:innen eher von pyramidal [15]. Eine zweite Meta-Analyse sieht einen kleinen Vorteil der polarisierten Verteilung für die VO2peak, vor allem bei Hochtrainierten. Für Zeitlauf und Schwelle zeigt sie keinen Unterschied [16]." },
+        { "t": "p", "x": "Die App plant deshalb pyramidal: etwa 75–80 % locker (A1, A4), dazu Tempo (A3) und Bergintervalle (A2), höchstens 2 harte Einheiten pro Woche." },
+        { "t": "h", "x": "Bergab: die unterschätzte Belastung" },
+        { "t": "p", "x": "Beim Bergablaufen bremsen die Oberschenkel bei jedem Schritt, während der Muskel verlängert wird (exzentrisch). Das verursacht kleine Muskelschäden mit Muskelkater und Kraftverlust, und zwar am stärksten bei Menschen, die es nicht gewohnt sind [17]. Die wirksamste Vorbereitung ist, regelmässig bergab zu laufen [17]." },
+        { "t": "p", "x": "Eine Studie von 2025 zeigt: Nach 10 Bergab-Einheiten war der Muskelkater deutlich geringer, die Ermüdung der Muskeln aber gleich [18]. Bergab wird also angenehmer, bleibt aber anstrengend. Plane lange Abstiege darum nicht in müdem Zustand." },
+        { "t": "p", "x": "Eine Meta-Analyse zur Vorbelastung zeigt [19]: Eine exzentrische Einheit 2–4 Tage vor einer grossen Belastung schützt vor Muskelschäden, Kraftverlust und Muskelkater. Am besten mit exzentrischen Übungen, genügend Volumen und Intensität und in Dehnposition des Muskels. Darum schlägt die App vor einer Tour mit viel Abstieg eine kurze K1-Einheit mit Step-downs vor." },
+        { "t": "h", "x": "Die 10-%-Regel für den einzelnen Lauf" },
+        { "t": "p", "x": "In einer Studie mit über 5200 Läuferinnen und Läufern stieg das Risiko für Überlastungsverletzungen, wenn ein einzelner Lauf mehr als 10 % länger war als der längste Lauf der letzten 30 Tage [21]. Interessant: Das Wochenverhältnis spielte keine Rolle. Die App warnt darum bei solchen Spitzen. Für Wanderungen ist diese Regel eine Übertragung (Grad C)." },
+        { "t": "p", "x": "Im Trail-Running sind ein fehlendes Aufwärmen und ein fehlender Trainingsplan mit mehr Verletzungen verbunden [40]. Beides ist in der App eingebaut." }
+      ],
+      "refs": [15, 16, 17, 18, 19, 21, 40]
+    },
+    {
+      "id": "c5", "title": "5. Kraft und Ausdauer kombinieren", "grade": "A",
+      "summary": [
+        "Ausdauertraining bremst den Kraft- und Muskelaufbau nicht [12].",
+        "Bei Frauen zeigte sich keine Bremswirkung auf die Beinkraft [13].",
+        "Nur die Schnellkraft leidet etwas, wenn beides in derselben Einheit stattfindet. Mit ≥ 3 Stunden Abstand ist der Effekt weg [12]."
+      ],
+      "content": [
+        { "t": "p", "x": "Lange hiess es, Ausdauer «frisst» Muskeln. Das nennt man Interferenz-Effekt. Die aktuelle Meta-Analyse mit 43 Studien zeigt: Maximalkraft und Muskelaufbau werden durch zusätzliches Ausdauertraining nicht beeinträchtigt. Nur die Schnellkraft wird leicht gebremst, vor allem wenn beides in derselben Einheit stattfindet. Bei mindestens 3 Stunden Abstand verschwindet dieser Effekt [12]." },
+        { "t": "p", "x": "Eine weitere Meta-Analyse mit 59 Studien hat Frauen und Männer verglichen. Bei Männern gab es eine kleine Interferenz für die Beinkraft, bei Frauen nicht [13]. Ein Review nur zu Frauen bestätigt, dass kombiniertes Training Kraft und Ausdauer verbessert. Die Datenlage ist aber noch dünn, und die Studienqualität ist tief bis mittel [14]." },
+        { "t": "h", "x": "Was das für deine Woche heisst" },
+        { "t": "ul", "items": [
+          "Kraft- und Ausdauerblöcke dürfen am gleichen Tag stattfinden.",
+          "Power- und Sprungblöcke (P1, P2) machst du ausgeruht: an einem eigenen Tag, vor einem Lauf oder mit mindestens 3 Stunden Abstand.",
+          "Der Kurzblock H1 (Kraft-Zirkel + locker) ist für volle Tage eine gute Lösung."
+        ] }
+      ],
+      "refs": [12, 13, 14]
+    },
+    {
+      "id": "c6", "title": "6. Rumpf, Rücken und Tragen", "grade": "A/C",
+      "summary": [
+        "Training senkt das Risiko für Rückenschmerz-Episoden um rund einen Drittel bis fast die Hälfte [22].",
+        "Rückengurte, Einlagen und reine Aufklärung schützen nicht [22].",
+        "Tragen fordert den Rumpf anders als Heben und ergänzt das Krafttraining [23]."
+      ],
+      "content": [
+        { "t": "h", "x": "Rückenschmerzen vorbeugen" },
+        { "t": "p", "x": "Eine Meta-Analyse aus 21 Studien mit über 30 000 Personen zeigt: Training mit Aufklärung senkt das Risiko für eine neue Rückenschmerz-Episode deutlich (RR 0,55), Training allein ebenfalls (RR 0,65). Aufklärung allein, Rückengurte und Schuheinlagen nützen dagegen nichts [22]." },
+        { "t": "h", "x": "Warum Tragen?" },
+        { "t": "p", "x": "Biomechanische Messungen zeigen: Beim Tragen arbeiten die Rumpfmuskeln anders als beim Heben. Sie stützen das Becken seitlich und machen den Rumpf steif, damit die Hüfte die Last halten kann [23]. Die Autoren folgern, dass Tragen klassisches Krafttraining sinnvoll ergänzt." },
+        { "t": "ul", "items": [
+          "Suitcase Carry (einseitig): wie eine schwere Einkaufstasche. Der Rumpf hält gegen das Kippen.",
+          "Hug Carry (vor dem Bauch): wie ein Kind auf dem Arm.",
+          "Farmer Carry (beidseitig): wie zwei volle Taschen.",
+          "Offset und Front Rack: wie ein Kind auf der Hüfte und eine Tasche in der anderen Hand."
+        ] },
+        { "t": "h", "x": "Was wir nicht wissen" },
+        { "t": "p", "x": "Zum einseitigen Tragen eines Kindes gibt es keine Trainingsstudie. Dass Suitcase Carry, seitlicher Stütz und Anti-Rotation genau diese Belastung vorbereiten, ist eine gut begründete Übertragung (Grad C): Man wird in dem besser, was man übt." }
+      ],
+      "refs": [22, 23]
+    },
+    {
+      "id": "c7", "title": "7. Beckenboden und Sport", "grade": "A/C",
+      "summary": [
+        "Beckenbodentraining ist die erste Wahl bei Belastungsinkontinenz und wirkt auch bei Sportlerinnen [24, 26].",
+        "Ein einfaches Heimprogramm (3 × 8–12 maximale Kontraktionen täglich, 16 Wochen) half in einer Studie 64 % der Sportlerinnen [27].",
+        "Wie viel Belastung der Beckenboden verträgt, ist individuell. Darum richtet sich die App nach deinen Symptomen, nicht nach einem Kalender [29, 31, 32]."
+      ],
+      "content": [
+        { "t": "h", "x": "Häufig – und gut behandelbar" },
+        { "t": "p", "x": "Urinverlust beim Sport ist häufig. In Sportarten mit vielen Sprüngen betrifft er rund jede vierte Sportlerin [30]. Leistungssportlerinnen sind etwa dreimal häufiger betroffen als Nicht-Sportlerinnen. Moderate Bewegung wie Gehen senkt das Risiko dagegen [29]." },
+        { "t": "p", "x": "Die gute Nachricht: Beckenbodentraining (PFMT) heilt oder bessert Belastungsinkontinenz zuverlässig [24]. Es wird international als erste Behandlung empfohlen [25]. Gezieltes Training mit Sätzen von wiederholten Kontraktionen ist etwas wirksamer als indirektes Training [25]. Auch bei Sportlerinnen steigert PFMT die Kraft und reduziert den Urinverlust [26]. Nach einer Geburt senkt es das Risiko für Inkontinenz um 37 % und für eine Senkung um 56 % [28]." },
+        { "t": "h", "x": "Das Programm in der App" },
+        { "t": "p", "x": "Eine randomisierte Studie mit Functional-Fitness-Sportlerinnen hat ein einfaches Heimprogramm getestet: täglich 3 Sätze à 8–12 maximale Kontraktionen, 16 Wochen lang, mit wöchentlicher Erinnerung. 64 % berichteten weniger Beschwerden, in der Kontrollgruppe nur 8 % [27]. Genau dieses Programm ist das tägliche Beckenboden-Häkchen in der App." },
+        { "t": "ul", "items": [
+          "Kraft: so fest wie möglich nach innen-oben anspannen, 3–5 Sekunden halten, ganz lösen.",
+          "Schnell: kurz anspannen und sofort lösen – wie beim Husten oder bei einem Sprung.",
+          "Knack: kurz vor dem Husten, Niesen oder Heben vorspannen.",
+          "Beim Heben ausatmen, kein Pressen nach unten."
+        ] },
+        { "t": "h", "x": "Schwer heben – ja oder nein?" },
+        { "t": "p", "x": "Es gibt keine Belege, dass schweres Krafttraining dem Beckenboden grundsätzlich schadet. In einer Umfrage hatten Frauen, die in der Schwangerschaft schwer trainierten, keine schlechteren Beckenboden-Ergebnisse [35]. Das ist allerdings eine Umfrage mit möglicher Verzerrung (Grad C). Die Belastungsschwelle ist von Frau zu Frau verschieden [29]. Darum gilt in der App: Schweres Heben ist erlaubt, solange keine Symptome auftreten." },
+        { "t": "h", "x": "Sprünge und Laufen: die Ampel" },
+        { "t": "p", "x": "Für die Rückkehr zu Laufen und Springen gibt es keine Studien, nur Expertenkonsens. Zwei internationale Delphi-Studien empfehlen: individuell entscheiden, schrittweise steigern, mit Geh-Lauf beginnen, Krafttraining dazunehmen und bei Beckenboden-Symptomen anpassen [31, 32]. Die Belastungstests der App stammen aus einer Expertenleitlinie [34]. Fachleute sehen die Rückkehr zum Sport als schrittweisen Prozess, nicht als einen Stichtag [33]." },
+        { "t": "ul", "items": [
+          "Nach Einheiten mit Laufen, Springen oder schweren Übungen beantwortest du zwei kurze Fragen.",
+          "Grün (mehrere Checks, alles «nein»): Sprünge frei.",
+          "Gelb (leichte Symptome in den letzten 14 Tagen): Varianten mit wenig Aufprall.",
+          "Rot (deutliche Symptome in den letzten 7 Tagen): keine Sprünge, gehen statt laufen. Dann ist eine Beckenboden-Physiotherapie sinnvoll."
+        ] },
+        { "t": "p", "x": "Die App ersetzt keine Untersuchung. Wenn Symptome bleiben, ist eine spezialisierte Beckenboden-Physiotherapie die erste und wirksamste Adresse [24]." }
+      ],
+      "refs": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+    },
+    {
+      "id": "c8", "title": "8. Belastung steuern und erholen", "grade": "B",
+      "summary": [
+        "Ein Wert für alles: Anstrengung der Einheit (0–10) × Minuten. Diese Methode ist gut untersucht [37, 38].",
+        "Die verbreitete «Akut-zu-chronisch»-Ampel (ACWR) nutzt die App bewusst nicht [39].",
+        "Die Zyklusphase beeinflusst die Leistung nur minimal. Es gibt keine allgemeinen Zyklus-Trainingsregeln [36]."
+      ],
+      "content": [
+        { "t": "h", "x": "Session-RPE" },
+        { "t": "p", "x": "Etwa 30 Minuten nach der Einheit gibst du an, wie anstrengend sie insgesamt war (0 = Ruhe, 10 = maximal). Multipliziert mit den Minuten ergibt das die Belastung, egal ob Kraft, Lauf oder Wanderung [37]. Diese Methode ist über Sportarten, Altersgruppen und Geschlechter hinweg valide und zuverlässig [38]." },
+        { "t": "h", "x": "Warum keine ACWR-Ampel?" },
+        { "t": "p", "x": "Viele Apps vergleichen die Belastung der letzten Woche mit dem Monatsdurchschnitt (ACWR). Eine methodische Analyse zeigt, dass dieses Verhältnis ein statistisches Artefakt ist und Verletzungen nicht besser vorhersagt [39]. Auch in der grossen Laufstudie spielte das Wochenverhältnis keine Rolle, die Länge des einzelnen Laufs aber schon [21]." },
+        { "t": "h", "x": "Zyklus" },
+        { "t": "p", "x": "Eine Meta-Analyse fand höchstens einen trivialen Leistungsunterschied, mit etwas tieferer Leistung in der frühen Follikelphase. Die Studienqualität ist tief. Allgemeine Regeln lassen sich daraus nicht ableiten, empfohlen wird ein persönlicher Ansatz [36]. In der App kannst du optional eine Notiz machen und so eigene Muster erkennen." },
+        { "t": "h", "x": "Erholung im Familienalltag" },
+        { "t": "ul", "items": [
+          "Schlechte Nacht? Kurzversion wählen oder auf «leicht» steuern – die RIR-Steuerung macht das automatisch.",
+          "Nach 4–6 Wochen kann eine leichtere Woche guttun (Sätze halbieren). Das ist Praxiserfahrung (Grad C).",
+          "Eine verpasste Einheit holst du nicht nach, du machst einfach mit der nächsten weiter."
+        ] }
+      ],
+      "refs": [21, 36, 37, 38, 39]
+    },
+    {
+      "id": "c9", "title": "9. So misst die App deinen Fortschritt", "grade": "C",
+      "summary": [
+        "Stärker: geschätztes Maximalgewicht (e1RM) pro Übung als Trend.",
+        "Schneller und ausdauernder: Referenzstrecke, Pace bei gleicher Anstrengung, Höhenmeter pro Stunde.",
+        "Alle 6 Wochen eine Testbatterie mit 7 Alltagstests."
+      ],
+      "content": [
+        { "t": "h", "x": "Stärker" },
+        { "t": "p", "x": "Aus Gewicht und Wiederholungen schätzt die App, wie viel du einmal heben könntest (e1RM, Formel nach Epley). Sie nutzt dafür nur Sätze mit höchstens 10 Wiederholungen, weil die Schätzung sonst ungenau wird. Der Wert ist eine Schätzung. Wichtig ist der Verlauf, nicht die einzelne Zahl." },
+        { "t": "h", "x": "Schneller und ausdauernder" },
+        { "t": "ul", "items": [
+          "Zeit auf deiner Referenzstrecke (Testbatterie).",
+          "Pace bei gleicher Anstrengung: Läufst du bei RPE 4 schneller als vor 6 Wochen?",
+          "Höhenmeter pro Stunde bergauf.",
+          "Kilometer und Höhenmeter pro Woche."
+        ] },
+        { "t": "h", "x": "Die Testbatterie" },
+        { "t": "p", "x": "Alle 6 Wochen machst du sieben Tests: Referenzstrecke, einbeiniges Wadenheben, einbeiniges Aufstehen, Standweitsprung (nur bei grüner Ampel), Klimmzug oder Ringrudern, Suitcase Carry und Seitstütz. Die Tests sind so gewählt, dass sie messen, was du im Alltag brauchst (Grad C). Zwei davon stammen aus den Belastungstests der Expertenleitlinie [34]." },
+        { "t": "h", "x": "Ehrlich bleiben" },
+        { "t": "p", "x": "Mit wenigen Messpunkten zeigt die App Rohwerte statt geglätteter Kurven. Kleine Schwankungen von Woche zu Woche sind normal (Schlaf, Wetter, Kinder). Aussagekräftig ist der Trend über 6–12 Wochen." }
+      ],
+      "refs": [34]
+    }
+  ]
+}

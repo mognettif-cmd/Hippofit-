@@ -1,0 +1,145 @@
+{
+  "battery": {
+    "name": "Testbatterie",
+    "intervalWeeks": 6,
+    "minutes": 35,
+    "intro": "Alle 6 Wochen, ausgeruht, nach dem Aufwärmen aus Block K1. Immer gleiche Reihenfolge, gleiche Schuhe, möglichst gleiche Tageszeit. So werden die Werte vergleichbar.",
+    "grade": "C",
+    "gradeNote": "Die Tests sind nach dem Spezifitätsprinzip gewählt: Sie messen, was im Alltag zählt. Einbeinige Wadenheber und Sit-to-Stand kommen aus den Belastungstests von Goom et al. [34].",
+    "tests": [
+      {
+        "id": "run-ref", "name": "Referenzstrecke", "unit": "s", "better": "lower", "side": false, "requiresGreen": false,
+        "protocol": "Immer die gleiche Strecke (z. B. 3 km flach oder dein Hausberg) so schnell wie gleichmässig möglich. Zeit stoppen. Bei gelber oder roter Ampel: Strecke zügig gehen.",
+        "setting": "runRefName"
+      },
+      {
+        "id": "sl-calf", "name": "Wadenheben einbeinig", "unit": "reps", "better": "higher", "side": true, "requiresGreen": false,
+        "protocol": "Barfuss auf dem Boden, eine Hand an der Wand. Im Takt (1 s hoch, 1 s runter), volle Höhe. Zählen bis die Höhe nicht mehr erreicht wird. Beide Seiten.",
+        "refs": [34]
+      },
+      {
+        "id": "sl-sts", "name": "Einbeiniges Aufstehen vom grossen Step", "unit": "reps", "better": "higher", "side": true, "requiresGreen": false,
+        "protocol": "Auf dem grossen Step sitzen, Arme vor der Brust gekreuzt. Auf einem Bein aufstehen und wieder absitzen. Zählen bis es nicht mehr sauber geht (Knie fällt nach innen oder Schwung nötig). Beide Seiten.",
+        "refs": [34]
+      },
+      {
+        "id": "broad-jump", "name": "Standweitsprung", "unit": "cm", "better": "higher", "side": false, "requiresGreen": true,
+        "protocol": "Beidbeinig ab, beidbeinig landen und stehen bleiben. Gemessen ab der Fussspitze bis zur hintersten Ferse. Bester von 3 Versuchen. Nur bei grüner Ampel."
+      },
+      {
+        "id": "pull-max", "name": "Klimmzug oder Ringrudern", "unit": "reps", "better": "higher", "side": false, "requiresGreen": false,
+        "protocol": "Wer einen Klimmzug schafft: maximale saubere Klimmzüge. Sonst: Ringrudern mit Füssen am gleichen markierten Punkt, maximale Wiederholungen. Variante im Eintrag merken.",
+        "variants": ["Klimmzug", "Ringrudern"]
+      },
+      {
+        "id": "suitcase-time", "name": "Suitcase Carry", "unit": "s", "better": "higher", "side": true, "requiresGreen": false,
+        "protocol": "Feste Kettlebell (z. B. 16 kg – immer die gleiche). Einseitig gehen, bis die Haltung nicht mehr gerade bleibt oder der Griff aufgibt. Beide Seiten.",
+        "setting": "suitcaseTestKg"
+      },
+      {
+        "id": "side-plank-time", "name": "Seitstütz", "unit": "s", "better": "higher", "side": true, "requiresGreen": false,
+        "protocol": "Seitstütz auf dem Unterarm, Füsse übereinander. Halten, bis die Hüfte absinkt. Beide Seiten."
+      }
+    ]
+  },
+
+  "phase4Entry": {
+    "name": "Eintrittstest Plyometrie (Phase 4)",
+    "intro": "Bevor Sprünge dazukommen, prüfst du, ob Beine und Beckenboden bereit sind. Jeder Punkt gilt nur, wenn er ohne Urinverlust, ohne Druck- oder Schweregefühl und ohne Schmerz geht.",
+    "grade": "C",
+    "refs": [34, 31, 32],
+    "gradeNote": "Angelehnt an die Expertenleitlinie von Goom, Donnelly & Brockwell (2019). Sie wurde für die Rückkehr zum Laufen nach einer Geburt entwickelt und ist Expertenkonsens, nicht durch Studien geprüft.",
+    "groups": [
+      {
+        "name": "Belastung und Aufprall",
+        "items": [
+          { "id": "walk-30", "text": "30 Min zügig gehen" },
+          { "id": "sl-balance", "text": "10 s auf einem Bein stehen (jede Seite)" },
+          { "id": "sl-squat-10", "text": "10 einbeinige Kniebeugen (jede Seite)" },
+          { "id": "jog-1", "text": "1 Min Joggen an Ort" },
+          { "id": "bounds-10", "text": "10 Vorwärtssprünge" },
+          { "id": "hop-10", "text": "10 einbeinige Hüpfer an Ort (jede Seite)" },
+          { "id": "running-man-10", "text": "10 × «Running Man» einbeinig: Gegenarm und Knie wie beim Laufen (jede Seite)" }
+        ]
+      },
+      {
+        "name": "Kraft",
+        "items": [
+          { "id": "sl-calf-20", "text": "20 einbeinige Wadenheber (jede Seite)" },
+          { "id": "sl-bridge-20", "text": "20 einbeinige Brücken (jede Seite)" },
+          { "id": "sl-sts-20", "text": "20 × einbeinig vom Stuhl aufstehen (jede Seite)" },
+          { "id": "side-abd-20", "text": "20 × Bein seitlich heben in Seitlage (jede Seite)" }
+        ]
+      }
+    ],
+    "pass": "Alle Punkte erfüllt, ohne Symptome, und Beckenboden-Ampel grün.",
+    "fail": "Nicht schlimm: Phase 3 verlängern, die nicht erreichten Punkte gezielt üben und in 2 Wochen wiederholen. Bei Symptomen eine Beckenboden-Physiotherapie aufsuchen."
+  },
+
+  "phaseChecks": {
+    "1": {
+      "name": "Technik-Check vor Phase 2",
+      "items": [
+        "Kniebeuge: Rücken bleibt lang, Fersen bleiben am Boden",
+        "Split Squat: Knie bleibt über dem Fuss, Becken gerade",
+        "Kreuzheben: Bewegung aus der Hüfte, kein runder Rücken",
+        "Step-down: 3 Sekunden kontrolliert, Knie fällt nicht nach innen",
+        "Beim Heben: ausatmen, kein Druck nach unten"
+      ]
+    }
+  },
+
+  "pelvicCheck": {
+    "name": "Beckenboden-Check",
+    "when": "Nach jeder Einheit mit Laufen, Springen, Swing oder schweren Hauptübungen. Dauert 10 Sekunden.",
+    "questions": [
+      { "id": "leak", "text": "Urinverlust während des Trainings?" },
+      { "id": "heaviness", "text": "Schwere-, Druck- oder Fremdkörpergefühl im Becken?" }
+    ],
+    "answers": [
+      { "value": 0, "label": "nein" },
+      { "value": 1, "label": "leicht" },
+      { "value": 2, "label": "deutlich" }
+    ],
+    "ampel": {
+      "logic": [
+        "ROT: In den letzten 7 Tagen mindestens einmal «deutlich».",
+        "GELB: In den letzten 14 Tagen mindestens einmal «leicht» oder «deutlich» (aber nicht rot).",
+        "GRÜN: Mindestens 3 Checks in den letzten 14 Tagen, alle «nein».",
+        "GRAU: Zu wenig Checks – wird wie Gelb behandelt."
+      ],
+      "states": {
+        "green": { "label": "Grün", "maxImpact": 3, "text": "Alle Blöcke frei. Sprünge sind möglich." },
+        "yellow": { "label": "Gelb", "maxImpact": 1, "text": "Sprungblöcke werden durch Varianten mit wenig Aufprall ersetzt. Bei Läufen schlägt die App die Geh-Lauf-Variante vor." },
+        "grey": { "label": "Grau", "maxImpact": 1, "text": "Noch zu wenig Checks. Bis dahin gilt dasselbe wie bei Gelb." },
+        "red": { "label": "Rot", "maxImpact": 0, "text": "Sprünge sind ausgeblendet (lassen sich bewusst überschreiben). Statt zu laufen: gehen oder wandern. Bei anhaltenden Symptomen eine Beckenboden-Physiotherapie aufsuchen." }
+      },
+      "grade": "C",
+      "refs": [29, 31, 32, 24]
+    },
+    "disclaimer": "Die App ersetzt keine Untersuchung. Bei Symptomen ist eine Beckenboden-Physiotherapie die erste Wahl."
+  },
+
+  "sessionLog": {
+    "srpe": {
+      "question": "Wie anstrengend war die ganze Einheit?",
+      "scale": [
+        { "value": 0, "label": "Ruhe" },
+        { "value": 1, "label": "Sehr, sehr leicht" },
+        { "value": 2, "label": "Leicht" },
+        { "value": 3, "label": "Mittel" },
+        { "value": 4, "label": "Etwas hart" },
+        { "value": 5, "label": "Hart" },
+        { "value": 7, "label": "Sehr hart" },
+        { "value": 10, "label": "Maximal" }
+      ],
+      "note": "CR-10-Skala nach Foster. Etwa 30 Minuten nach der Einheit angeben. Belastung = Wert × Minuten.",
+      "refs": [37, 38]
+    },
+    "rirButtons": [
+      { "label": "leicht", "rir": 4 },
+      { "label": "passend", "rir": 2 },
+      { "label": "hart", "rir": 0 }
+    ]
+  }
+}
